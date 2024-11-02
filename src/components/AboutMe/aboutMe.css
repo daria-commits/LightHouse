@@ -1,0 +1,399 @@
+
+.title-about{
+  color: #455159;
+  
+  margin-bottom: 30px;
+
+}
+.container-about {
+  padding: 200px  400px 200px  ;
+  line-height: 24px ;
+  color: #1A2126 ;
+  overflow: auto ; /* Pour assurer que le conteneur englobe le contenu flottant */
+}
+
+.text-about {
+  float: left; 
+  width: 60% ; 
+  color: #1A2126;
+  
+
+}
+.image-container{
+  float: right ; 
+
+  
+}
+.image-about {
+  float: right ; 
+  width: 100% ; 
+  height: auto ;
+  max-width: 400px ;
+ 
+  
+ 
+}
+.fleche-first,.fleche-second,.fleche-third,.fleche-four{
+  transform: scale(1.5); 
+ top: 20px;
+ color: #1A2126;
+ position: relative;
+
+}
+.first , .second , .third ,.four{
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.primary-secondary-container {
+  text-align: start;
+}
+
+/* ---- Boutons primaire et secondaire ---- */
+.primary, .secondary {
+  font-size: 16px;
+  width: 40%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.primary {
+  background-color: #59080F;
+  border-color: #59080F;
+}
+
+.secondary {
+  background-color: #455159;
+  border-color: #455159;
+}
+
+.primary:hover {
+  background-color: #70818C;
+  border-color: #70818C;
+}
+
+.secondary:hover {
+  background-color: #70818C;
+  border-color: #70818C;
+}
+@media (min-width: 1985px) {
+  .container-about {
+  padding: 200px  450px 200px  ;
+  line-height: 24px ;
+  color: #1A2126 ;
+  overflow: auto ; 
+}
+.text-about {
+  float: left; 
+  width: 60% ; 
+  color: #1A2126;
+  
+
+}
+
+}
+@media (min-width: 1921px)  and (max-width: 1985px) {
+  .container-about {
+  padding: 200px  350px 200px  ;
+  line-height: 24px ;
+  color: #1A2126 ;
+  overflow: auto ; 
+}
+
+.primary, .secondary {
+  font-size: 16px;
+  width: 60%;
+  padding: 10px;
+  margin-top: 30px;
+}
+}
+  
+  @media (min-width: 1750px) and (max-width: 1920px) {
+    .container-about {
+      padding: 200px  300px 200px  ;
+      line-height: 24px ;
+      color: #1A2126 ;
+      overflow: auto ; /* Pour assurer que le conteneur englobe le contenu flottant */
+    }
+    
+    
+    .text-about {
+      width: 55%; /* Ajuster la largeur du texte pour cette résolution */
+      float: left; /* Garder le texte à gauche */
+    }
+  
+    .image-about {
+      width: 450px; /* Ajuster la taille de l'image */
+      float: right; /* Garder l'image flottante à droite */
+      padding-top: 20px;
+      float: right ; 
+      width: 100% ; 
+      height: auto ;
+      max-width: 500px ;
+     top: 20px;
+     border: none;
+ 
+    }
+  
+    
+  }
+
+  @media (min-width: 1750px) and (max-width: 1920px) {
+    .container-about {
+      padding: 200px  300px 200px  ;
+      line-height: 24px ;
+      color: #1A2126 ;
+      overflow: auto ; /* Pour assurer que le conteneur englobe le contenu flottant */
+    }
+  }
+  
+  @media (min-width: 1605px) and (max-width: 1750px) {
+    .container-about {
+      padding: 200px  200px 200px  ;
+      line-height: 24px ;
+      color: #1A2126 ;
+      overflow: auto ; /* Pour assurer que le conteneur englobe le contenu flottant */
+    }
+  }
+  @media (min-width: 1365px) and (max-width: 1605px) {
+    .container-about {
+      padding: 200px  100px 200px  ;
+      line-height: 24px ;
+      color: #1A2126 ;
+      overflow: auto ; /* Pour assurer que le conteneur englobe le contenu flottant */
+    }
+  }
+
+
+  @media (min-width: 1150px) and (max-width: 1365px) {
+    .container-about {
+      padding: 200px  60px 200px  ;
+      line-height: 24px ;
+      color: #1A2126 ;
+      overflow: auto ; 
+    }
+
+    .text-about {
+      float: left; 
+      width: 50% ; 
+      color: #1A2126;
+      }
+
+      .image-about {
+        width: 300px; 
+        float: right; 
+        padding-top: 20px;
+        float: right ; 
+        width: 100% ; 
+        height: auto ;
+       
+       top: 20px;
+       border: none;
+        
+    } 
+
+ 
+    .primary, .secondary {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      display: inline-block;
+      margin: 10px;
+      width: 40%;
+      text-align: center; 
+      padding: 5px; 
+    }
+  }
+
+  
+
+
+  @media (min-width: 996px) and (max-width: 1150px) {
+    .container-about {
+      padding: 40px 50px 40px; 
+    }
+
+    .image-container{
+      float: right ; 
+      padding-top: 30px;
+    }
+    .image-about {
+      width: 500px; 
+      margin-top: 30px;
+      height: 600px;
+      top: 0; 
+      border: none;
+    }
+    .text-about {
+      float: left; 
+      width: 45% ; 
+      color: #1A2126;
+      }
+    .primary, .secondary {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      display: block;
+      margin: 10px;
+      
+      width: 80%;
+      text-align: center; 
+      padding: 5px; 
+    }
+  }
+
+@media (max-width: 995px) {
+  .container-about {
+    padding: 40px 50px 40px; /* Ajustement pour tablettes */
+  }
+
+  .image-about {
+    width: 100%; /* Image occupe 100% de la largeur */
+    max-width: none; /* Enlève la limite maximale */
+  }
+  .primary-secondary-container {
+    text-align: start;
+  }
+  
+  /* ---- Boutons primaire et secondaire ---- */
+  .primary, .secondary {
+    font-size: 16px;
+    width: 30%;
+    padding: 10px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px){
+  .container-about {
+    padding: 40px 50px 40px; /* Ajustement pour tablettes */
+  }
+
+  .image-about {
+    width: 100%; /* Image occupe 100% de la largeur */
+    max-width: none; /* Enlève la limite maximale */
+  }
+  .primary-secondary-container {
+    margin-top: 30px;
+    text-align: center; /* Centre les éléments à l'intérieur du conteneur */
+  }
+  .primary, .secondary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 10px;
+    width: 90%; /* Ajuster la largeur des boutons (40% pour chaque bouton) */
+    text-align: center; /* Centrer le texte dans les boutons */
+    padding: 5px; /* Ajouter du padding pour agrandir un peu les boutons */
+  }
+}
+
+@media (max-width: 576px) {
+  .container-about {
+    padding: 30px 20px 30px; /* Ajustement pour petits écrans */
+  }
+
+  .image-about {
+    width: 100%; /* Image prend toute la largeur */
+  }
+
+  .primary-secondary-c ontainer {
+    margin-top: 30px;
+    text-align: center; /* Centre les éléments à l'intérieur du conteneur */
+  }
+  .primary, .secondary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 10px;
+    width: 90%; /* Ajuster la largeur des boutons (40% pour chaque bouton) */
+    text-align: center; /* Centrer le texte dans les boutons */
+    padding: 5px; /* Ajouter du padding pour agrandir un peu les boutons */
+  }
+}
+
+   
+   
+
+
+@media (max-width: 992px) {
+  .container-about {
+    padding: 70px 100px 70px; /* Ajustement pour écrans de taille moyenne */
+  }
+  .title-about{
+    text-align: center;
+  }
+
+  .text-about {
+    width: 100%; /* Texte prend 100% de la largeur */
+    float: none; /* Enlève le float */
+    padding-right: 0; /* Supprime l'espace à droite pour mieux s'ajuster */
+  }
+
+  .image-about {
+    display: block; /* Pour s'assurer que l'image se comporte comme un bloc */
+    float: none; /* Enlève le float pour l'image */
+    width: 70%; /* Image occupe 70% de la largeur de l'écran */
+    margin: 30px auto 30px auto; /* Centre l'image horizontalement et ajoute un espacement en bas */
+  }
+  .primary-secondary-container {
+    margin-top: 30px;
+    text-align: center; /* Centre les éléments à l'intérieur du conteneur */
+  }
+  .primary, .secondary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 10px;
+    width: 50%; /* Ajuster la largeur des boutons (40% pour chaque bouton) */
+    text-align: center; /* Centrer le texte dans les boutons */
+    padding: 5px; /* Ajouter du padding pour agrandir un peu les boutons */
+  }
+}
+
+@media (max-width: 768px) {
+  .container-about {
+    padding: 40px 50px 40px; /* Ajustement pour tablettes */
+  }
+
+  .image-about {
+    width: 100%; /* Image occupe 100% de la largeur */
+    max-width: none; /* Enlève la limite maximale */
+  }
+  .primary-secondary-container {
+    margin-top: 30px;
+    text-align: center; /* Centre les éléments à l'intérieur du conteneur */
+  }
+  .primary, .secondary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 10px;
+    width: 90%; /* Ajuster la largeur des boutons (40% pour chaque bouton) */
+    text-align: center; /* Centrer le texte dans les boutons */
+    padding: 5px; /* Ajouter du padding pour agrandir un peu les boutons */
+  }
+}
+
+@media (max-width: 576px) {
+  .container-about {
+    padding: 30px 20px 30px; /* Ajustement pour petits écrans */
+  }
+
+  .image-about {
+    width: 100%; /* Image prend toute la largeur */
+  }
+
+  .primary-secondary-container {
+    margin-top: 30px;
+    text-align: center; /* Centre les éléments à l'intérieur du conteneur */
+  }
+  .primary, .secondary {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: inline-block;
+    margin: 10px;
+    width: 90%; /* Ajuster la largeur des boutons (40% pour chaque bouton) */
+    text-align: center; /* Centrer le texte dans les boutons */
+    padding: 5px; /* Ajouter du padding pour agrandir un peu les boutons */
+  }
+}
+
+

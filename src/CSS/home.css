@@ -1,0 +1,27 @@
+.section {
+  margin-bottom: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.about-deux {
+  margin-bottom: 50px; /* Réduis la marge pour éviter trop d'espace */
+}
+
+.methodes {
+  margin-top: 50px; /* Réduis la marge en haut pour rapprocher les sections */
+  margin-bottom: 250px;
+}
+
+.prix {
+  margin-top: 50px; /* Réduis la marge en haut pour rapprocher les sections */
+  margin-bottom: 100px; /* Augmenter pour espacer de la section Contact */
+}
+
+.contact {
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 10px; 
+}

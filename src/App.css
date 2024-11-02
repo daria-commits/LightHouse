@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Assurez-vous d'utiliser box-sizing pour un meilleur contrôle */
+}
+
+.navbar-custom {
+  padding-top: 15px; /* Réduit l'espacement en haut */
+  padding-bottom: 15px; /* Réduit l'espacement en bas */
+  min-height: 0px; /* Ajustez cette valeur selon la hauteur souhaitée */
+}
+
+
+/* Appliquer la police Libre Baskerville à tous les titres (h1, h2, h3, h4, h5, h6) */
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px; /* Taille pour les mobiles */
+  }
+}
+
+h2, h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  
+ 
+}
+
+
+
+/* Appliquer la police Lato à tout le texte normal (div, p, span, etc.) */
+body, div, span, a, h4 ,.navbar-custom .nav-link,
+.navbar-custom .dropdown-item{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  
+}
+
+

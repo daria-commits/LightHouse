@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.diplome-about {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+   
+  
+}
+
+
+
+.diplome-about h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #68788C !important;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+
+   
+}
+
+
+.content-diplome {
+    max-width: 800px; 
+    margin-top: 25px;
+  
+}
+
+
+
+
+.diplome-subtitle h4 {
+    font-size: 25px;
+    color: #364959;
+    margin-bottom: 25px; 
+}
+
+.image-after-text {
+    display: block; 
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto; 
+    max-height: 600px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.diplome-subtitle-plus{
+    font-size: 25px;
+    color: #364959;
+    margin-bottom: 25px; 
+}
+
+.accordion {
+    margin-top: 15px; /* Ajustez la valeur selon vos besoins */
+    margin-bottom: 30px;
+    background-color: #68788C;
+}
+h2.accordion-header{
+    background-color: #364959;
+}
+.accordion-item{
+    background-color:#F2E6D8 ;
+}
+.accordion-button{
+    background-color:#F2E6D8 ;
+    color:#364959 ;
+}
+.accordion-button:not(.collapsed){
+    background-color: #364959;
+    color:#F2E6D8 ;
+}
+p{
+    color: #68788C;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 18px; /* Font size for mobile and tablet */
+    }
+}
+
+

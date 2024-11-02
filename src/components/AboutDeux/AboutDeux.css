@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.section{
+    width: 100%;
+    background-color: #FDFBF9;
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 50px auto;
+    padding: 50px 0px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.container .title h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #68788C;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.container .title h4{
+    content: "";
+    height: 5px;
+    width: 100px;
+   
+    border-radius: 25px;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: 55%;
+    margin-right: 30px; /* Ajouter un espace entre le texte et l'image */
+}
+.image-section{
+    float: right;
+    width: 40%;
+
+}
+.image-about{
+    width: 90%;
+    height: auto;
+    border: 0.5px solid #8C6C5A; /* Ajoute une bordure de 5px avec la couleur spécifiée */
+   border-radius: 10px; /* Vous pouvez ajuster le rayon de la bordure pour obtenir des coins arrondis */
+   
+}
+
+.content .article h4{
+    color:#080A0D;
+    font-size: 17px;
+    line-height: 2;
+
+}
+
+.text-content{
+   
+    font-size: 16px;
+    line-height: 1.5;
+    
+    margin-top: 20px;
+}
+.fleche-first,.fleche-second,.fleche-third,.fleche-four{
+    transform: scale(1.5); 
+   top: 24px;
+   width: 25px;
+   color: #364959;
+   position: relative;
+  
+  }
+  .first , .second , .third ,.four{
+    padding-left: 30px;
+    font-size: 16px;
+    color: #364959;
+  }
+  .primary-secondary-container {
+    margin-top: 60px;
+    display: flex; 
+    gap: 15px; 
+    justify-content: start; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical */
+}
+.primary, .secondary {
+    display: inline-flex; /* Pour s'assurer que les boutons sont traités comme des éléments flexibles */
+    align-items: center; /* Centrer le contenu à l'intérieur du bouton */
+    height: 50px; /* Ajustez selon vos besoins */
+    padding: 16px 36px; 
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+
+.primary{
+    background-color: #8C6C5A;
+    color:#F2E6D8 ;
+    border: #8C6C5A;
+}
+.primary:hover{
+    background-color: #F2E6D8;
+    color:#364959 ;
+    border: #F2E6D8
+}
+
+.secondary{
+    background-color: #364959;
+    color:#F2E6D8;
+    border: #364959;
+
+    
+}
+
+.secondary:hover{
+    background-color: #F2E6D8;
+    color:#364959 ;
+    border: #F2E6D8
+}
+
+.container .social {
+    
+
+    width: 100%;
+    clear:both;
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.container .social a{
+    color: #F2E6D8;
+    font-size: 22px; /* Taille de l'icône */
+    height: 50px; /* Taille du fond circulaire */
+    width: 50px; /* Taille du fond circulaire */
+    border-radius: 50%; /* Forme circulaire */
+    background-color: #364959; /* Couleur du fond */
+    margin: 0 20px; /* Espace entre les icônes */
+    display: inline-block; /* Pour s'assurer qu'ils s'alignent correctement */
+    line-height: 50px; /* Aligner verticalement l'icône avec le fond */
+    text-align: center; /* Aligner horizontalement l'icône */
+    vertical-align: middle; /* Centrage par rapport aux autres icônes */
+  
+
+}
+.container .social a:hover{
+color: #8C6C5A;
+background-color:#F2E6D8 ;
+transition: 1s ease;
+transform: rotate(360deg);
+}
+
+@media screen and (max-width:768px) {
+    .section .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+
+    }
+    .primary-secondary-container {
+        flex-direction: column; /* Affiche les boutons l'un en dessous de l'autre */
+        align-items: center; /* Centre les boutons verticalement */
+    }
+
+    .primary, .secondary {
+        width: 100%; /* S'assure que les boutons occupent toute la largeur du conteneur */
+        max-width: 400px; /* Limite la largeur des boutons */
+        text-align: center;
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+   .content{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+   }
+
+
+  
+   .image-section{
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+   }
+
+   .image-about{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+   }
+
+   .container .title h3{
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 30px;
+   }
+
+   .container .article .button{
+    text-align: center;
+   }
+   .container .article .button a{
+    padding: 6px 15px;
+    font-size: 16px;
+   }
+
+   .container .social a{
+    color: #F2E6D8;
+    font-size: 18px; 
+    height: 35px; 
+    width: 35px; 
+    border-radius: 50%; 
+    background-color: #364959; 
+    margin: 0 20px; 
+    display: inline-block; 
+    line-height: 30px; 
+    text-align: center; 
+    vertical-align: middle; 
+  
+
+}
+.container .social a:hover{
+color: #8C6C5A;
+background-color:#F2E6D8 ;
+transition: 1s ease;
+transform: rotate(360deg);
+}
+}
+@media screen and (max-width: 1024px) {
+    .section .container {
+        width: 90%; /* Ajustez la largeur du conteneur pour les écrans de 1024px */
+    }
+
+    .container .title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+       
+    }
+
+    .content {
+        width: 100%; /* Ajustez la largeur du contenu */
+        margin-right: 0; /* Enlevez l'espace à droite */
+    }
+
+    .image-section {
+        width: 100%; 
+        margin-top: 50px; 
+        display: flex; 
+         justify-content: center; 
+        align-items: center; 
+    }
+
+    .image-about {
+        width: 90%; /* Ajustez la largeur de l'image */
+       
+    }
+
+    .primary, .secondary {
+        width: 100%; /* Les boutons occupent toute la largeur */
+        max-width: 400px; /* Limitez la largeur des boutons */
+    }
+
+    .container .title h3 {
+        font-size: 28px; /* Ajustez la taille de la police */
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .section .container {
+        width: 95%; /* Ajustez la largeur du conteneur pour les écrans de 820px */
+    }
+
+    .primary-secondary-container {
+        flex-direction: column; /* Affiche les boutons l'un en dessous de l'autre */
+        align-items: center; /* Centre les boutons verticalement */
+    }
+
+    .primary, .secondary {
+        width: 100%; /* Les boutons occupent toute la largeur */
+        max-width: 100%; /* Enlève la limite de largeur */
+        padding: 10px 20px; /* Ajuste le padding pour les petits écrans */
+    }
+
+    .container .title h3 {
+        font-size: 26px; /* Ajustez la taille de la police */
+    }
+
+    .container .social a {
+        font-size: 16px; /* Réduit la taille de l'icône */
+        height: 30px; /* Ajustez la taille du fond circulaire */
+        width: 30px; /* Ajustez la taille du fond circulaire */
+        line-height: 30px; /* Aligner verticalement l'icône avec le fond */
+    }
+}

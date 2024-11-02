@@ -1,0 +1,148 @@
+.section-about {
+    width: 100%;
+    background-color: #F7F9FC; /* Couleur de fond douce */
+    padding: 40px 20px; /* Espacement intérieur */
+    display: flex; /* Utiliser flexbox pour le layout */
+    justify-content: center; /* Centrer le contenu */
+}
+
+.about-page {
+    width: 80%;
+    display: flex; /* Alignement horizontal des éléments */
+    flex-direction: row; /* Orientation en ligne */
+    align-items: center; /* Centrer verticalement */
+    margin: 20px auto; /* Marges automatiques pour centrer */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    background-color: #FFFFFF; /* Couleur de fond blanche */
+}
+
+.gauche-about {
+    flex: 1; /* Prend un espace proportionnel */
+    margin-right: 20px; /* Espacement entre l'image et le texte */
+}
+
+.image-about {
+    width: 100%; /* Prendre toute la largeur de son conteneur */
+    border-radius: 8px; /* Coins arrondis pour l'image */
+}
+
+.droite-about {
+    flex: 2; /* Prend un espace proportionnel plus grand */
+}
+
+.about-title h3 {
+    font-size: 28px; /* Taille de police pour le titre */
+    color: #3B3B3B; /* Couleur du texte */
+    margin-bottom: 10px; /* Espacement en dessous */
+}
+
+.content-about {
+    margin-top: 20px; /* Espace au-dessus du contenu */
+}
+
+.texte-about {
+    font-size: 16px; /* Taille de la police pour le texte */
+    color: #364959; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne pour aérer le texte */
+}
+
+hr {
+    margin: 20px 0; /* Espacement autour de la ligne */
+    border: none; /* Retire la bordure par défaut */
+    height: 1px; /* Épaisseur de la ligne */
+    background-color: #E0E0E0; /* Couleur de la ligne */
+}
+
+.texte-deux {
+    margin-top: 20px; /* Espace entre le contenu principal et texte-deux */
+    line-height: 2;
+    margin-bottom: 40px;
+    color: #171F26;
+   
+ 
+}
+
+/* Media Queries pour la Responsivité */
+@media (max-width: 768px) {
+    .section-about {
+        padding: 10px 0px; /* Réduire le padding pour les petits écrans */
+    }
+    .texte-deux {
+        font-size: 16px; /* Ajuster la taille de la police pour les petits écrans */
+        padding: 0px 20px 0px 20px;
+    }
+    .about-title h3 {
+        text-align: start;
+        padding: 0px 10px;
+    }
+    .about-page {
+        flex-direction: column; /* Passer en colonne sur les petits écrans */
+        width: 90%;
+
+    }
+    .texte-about{
+        padding: 0px 10px;
+    }
+    .gauche-about {
+        margin-right: 0; /* Supprimer l'espacement sur les petits écrans */
+        margin-bottom: 20px; /* Espacement en bas */
+    }
+
+    .about-title h3 {
+        font-size: 24px; /* Réduire la taille de la police pour les petits écrans */
+    }
+
+    .texte-about {
+        font-size: 14px; /* Ajuster la taille de la police */
+    }
+}
+@media (max-width: 1024px) {
+    .section-about {
+        padding: 20px 0; /* Ajustement pour iPad Pro */
+    }
+
+    .about-page {
+        flex-direction: column; /* Passer en colonne sur les petits écrans */
+        width: 90%;
+    }
+
+    .gauche-about {
+        margin-right: 0; /* Supprimer l'espacement sur les petits écrans */
+        margin-bottom: 20px; /* Espacement en bas */
+    }
+
+    .about-title h3 {
+        font-size: 26px; /* Ajuster la taille de la police pour iPad Pro */
+        text-align: start; /* Alignement du texte */
+        padding: 0 10px; /* Espacement autour du titre */
+    }
+
+    .texte-about {
+        padding: 0 10px; /* Espacement pour le texte */
+        font-size: 15px; /* Ajuster la taille de la police */
+    }
+
+    .texte-deux {
+        font-size: 18px; /* Ajuster la taille de la police pour le texte secondaire */
+        padding: 0 20px; /* Espacement autour du texte secondaire */
+    }
+}
+
+@media (max-width: 820px) {
+    .section-about {
+        padding: 15px 0; /* Ajustement pour iPad Air */
+    }
+
+    .about-title h3 {
+        font-size: 24px; /* Réduire la taille de la police pour iPad Air */
+    }
+
+    .texte-about {
+        font-size: 14px; /* Ajuster la taille de la police */
+    }
+
+    .texte-deux {
+        font-size: 16px; /* Ajuster la taille de la police pour le texte secondaire */
+    }
+}

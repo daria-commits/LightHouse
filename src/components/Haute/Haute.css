@@ -1,0 +1,57 @@
+.haut-section {
+    background-color: #F2E6D8; /* Couleur de fond */
+    width: 100%; /* Prendre toute la largeur */
+    padding: 20px; /* Ajout d'un espacement intérieur */
+    margin-top: 0;
+}
+
+.text {
+    height: 300px;
+    color: #2E3F4C;
+    display: flex; /* Utiliser flexbox pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    text-align: start; /* Alignement du texte */
+    flex-direction: column; /* Afficher les éléments en colonne */
+}
+
+.textun {
+    font-size: 20px; /* Taille de la police */
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    line-height: 35px; /* Améliorer l'espacement entre les lignes */
+    font-style: italic; /* Texte en italique */
+}
+
+.textdeux {
+    margin-top: 30px; /* Ajouter de l'espace entre les deux textes */
+    font-size: 20px; /* Ajustez la taille de la police si nécessaire */
+    font-style: italic; /* Texte en italique */
+}
+
+/* Media Queries pour la Responsivité */
+
+@media (max-width: 768px) {
+    .text {
+        height: auto; /* Permettre une hauteur dynamique pour les petits écrans */
+        padding: 20px; /* Ajuster le padding si nécessaire */
+    }
+
+    .textun,
+    .textdeux {
+        font-size: 18px; /* Réduire la taille de la police pour les écrans plus petits */
+        line-height: 28px; /* Ajuster l'espacement entre les lignes */
+    }
+}
+
+@media (max-width: 480px) {
+    .textun,
+    .textdeux {
+        font-size: 16px; /* Réduire encore la taille de la police pour les très petits écrans */
+        line-height: 24px; /* Ajuster l'espacement entre les lignes */
+    }
+
+    .text {
+        padding: 10px; /* Réduire le padding pour les très petits écrans */
+    }
+}

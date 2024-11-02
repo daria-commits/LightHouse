@@ -1,0 +1,179 @@
+{
+  "home": "Accueil",
+  "about": "À propos",
+  "education": "Formation",
+  "dropdown": "Méthodes de travail",
+  "action": "Thérapie narrative",
+  "another_action": "Externalisation du problème",
+  "something": " Pratiques écrites",
+  "separated_link": "Art-thérapie",
+  "hero": {
+    "title": "Marie Vélikanov",
+    "subtitle": "Psychopraticienne, spécialisée dans la psychothérapie relationnelle, les pratiques narratives et l'écriture-thérapie"
+  },
+  "footer": {
+     "description": "Marie Vélikanov,Psychopraticienne, spécialisée dans la psychothérapie relationnelle, les pratiques narratives et l'écriture-thérapie.",
+    "categories": "Liens Utiles",
+    "quickLinks": "Contacts",
+    "copyright": "Copyright © 2024 Tous droits réservés par",
+    "links": {
+      "c": "Accueil",
+      "uiDesign": "A propos",
+      "php": "Services",
+      "java": "Java",
+     
+      "privacy": "Politique de confidentialité",
+      "sitemap": "Plan du site",
+      "titre.about":"A propos"
+    }
+  },
+  "titre": {
+    "about": "À propos de moi"
+  },
+
+  "subtitre": {
+    "subtitle": "Je m'appelle Maria Velikanova, je suis psychologue, psychopraticienne non médicale et praticienne narrative. Je travaille en deux langues, le russe et le français.J'utilise les méthodes suivants dans mon travail:"
+  },
+
+  "texte": {
+    "first": "La thérapie narrative aide à créer une «histoire préférée» de la vie, en mettant l'accent sur le choix autonome du client.",
+     "second": "L'externalisation du problème consiste à voir le problème comme un phénomène distinct, et non comme une partie de la personnalité du client.",
+     "third": "Les pratiques d'écriture sont des techniques structurées pour prendre conscience et travailler sur les problèmes.",
+     "four": "Art-thérapie – utilisation de la créativité (dessin, collage, musique) pour l'expression de soi et le travail thérapeutique."
+  },
+"button": {
+    "rdv": "Prendre RDV",
+    "about": "En savoir plus"
+},
+
+ 
+   "modal": {
+    "modalHeading": "Envoyer une demande",
+    "email": "Adresse e-mail",
+    "firstName": "Prénom",
+    "consultationFormat": "Choisissez votre format de consultation",
+    "individual": "Consultation individuelle",
+    "couple": "Consultation en couple",
+    "upgradeProgram": "Programme « Mise à jour des relations parent-enfant »",
+    "textarea": "Zone de texte",
+    "closeButton": "Fermer",
+    "saveChanges": "Envoyer",
+     "close": "Fermer",
+      "saving": "Envoyé"
+  },
+
+  "translation": {
+    "contactUs": "Contacts",
+    "name": "Nom, Prénom",
+    "email": "Adresse e-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "sendMessage": "ENVOYER LE MESSAGE",
+    "contactInfo": "Informations de contact",
+    "address": "Rue de Metz, Metz, France",
+   "contactPhone": "Téléphone",
+    "contactEmail": "E-mail",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "email@gmail.com",
+    "placeholderPhone": "+3300000000",
+    "placeholderSubject": "Sujet",
+    "placeholderMessage": "Votre message ici"
+   
+  },
+  "aboutpage":{
+    "phrase": "Le phare n’est pas le port. Les bateaux ne naviguent pas vers un phare, mais le phare se profile à l’horizon dans les moments difficiles, la tempête, le brouillard, quand on ne distingue plus le chemin et les obstacles semblent infranchissables…",
+    "phrasedeux":"C’est ainsi que je vois le rôle du praticien psy. Le gardien du phare est heureux quand le capitaine du navire, grâce à la lumière du phare, passe à côté des rochers dangereux et continue son chemin vers le but, sans s’attarder près du phare."
+
+
+  },
+  "titreabout": {
+    "aboutpage": "Je m’appelle Marie Vélikanov"
+  },
+  "subtitleabout": {
+    "subtitle": "Psychopraticienne, spécialisée en psychothérapie relationnelle"
+  },
+  "texteabout": {
+    "firstabout": "Je suis une psychopraticienne, spécialisée dans la psychothérapie relationnelle, les pratiques narratives et l’écriture-thérapie. Je travaille en deux langues, en russe et en français.\n\nAvant de me spécialiser dans le domaine de l’accompagnement psychothérapeutique, j’ai fait des études de musique (chef de chœur) et de lettres.\n\nJe me suis formée dans l’Institut de Psychologie Consultative à l’approche centrée sur la personne (Carl Rogers), puis j’ai suivi des formations en écriture-thérapie. J’ai aussi travaillé avec des personnes en crise suicidaire dans le cadre d’un stage pour bénévoles du site 'Choisis la vie'.\n\nEn ce moment, je continue d’approfondir mes connaissances et je me spécialise dans l’approche narrative à l’Institut de Formation à la Pratique Psychologique en ligne de la fondation « Le Futur Aujourd’hui » (Moscou)."
+  },
+  "textedeux": {
+    "textedeux": "Je travaille avec des gens ayant subi un traumatisme psychologique. J'ai travaillé pendant plusieurs années avec des personnes en crise suicidaire, donc j'ai de l'expérience avec des états émotionnels difficiles.\n\nJe suis une personne responsable, et ma responsabilité inclut le fait de ne pas essayer de travailler seule avec des cas de dépression clinique nécessitant un traitement médical. Je ne vais pas refuser un tel client, mais je ne travaillerai qu'en collaboration avec un médecin. Je considère également qu'il est de ma responsabilité de suivre une thérapie personnelle et une supervision : les difficultés qu'un psychologue, comme tout être humain, rencontre dans sa vie ne doivent pas déteindre sur ses interactions avec le client. C'est pourquoi j'ai actuellement un thérapeute et un superviseur.\n\nJe ne travaille pas avec des couples, des enfants, ni sur des demandes d'adultes concernant l'éducation.\n\nCependant, j'ai de l'expérience avec les parents d'enfants particuliers (enfants ayant des troubles du développement).\n\nMon credo en tant que psychologue peut être exprimé par la phrase du fondateur de la logothérapie, Viktor Frankl : « Qu'est-ce que l'homme ? C'est un être qui décide toujours qui il est. »\n\nJe ne vais jamais essayer de vous changer (ce n'est pas dans mes capacités, ni dans celles de quiconque), je ne vais pas vous enseigner, je ne vais pas vous guider, car vous êtes vous, et vous n'avez pas besoin de me suivre, vous avez votre propre chemin. Je crois que chaque personne a une ressource, une source intérieure, qui lui permet de vivre sa vie en apportant joie et bonheur aux autres.\n\nJe considère que mon rôle en tant que psychologue-consultant est de marcher à vos côtés, pas devant vous, parfois en offrant mon épaule dans les tournants difficiles, en étant un soutien sur votre chemin, jusqu'à ce que vos jambes deviennent assez fortes pour voyager seules.\n\nJe vis en France, à Metz, donc j'utilise principalement des consultations vidéo, parfois par chat et e-mail. Si vous vivez en Europe de l'Ouest, puisque le courrier ici est très rapide, la correspondance à l'ancienne, sur papier, est également possible. Je me suis formée à l’Institut de Psychologie Consultative à l’approche centrée sur la personne (Carl Rogers), puis j’ai suivi plusieurs formations en écriture-thérapie. J’ai aussi appris à travailler avec des personnes en état de crise suicidaire dans le cadre d’un stage approfondi pour les bénévoles du site « Choisis la vie », un site russe de prévention et de lutte contre le suicide, créé et animé par mes soins. Toutes ces formations ont été effectuées à Moscou, Russie.\n\nEn ce moment, je continue d’approfondir mes connaissances et mon savoir-faire et je me spécialise dans l’approche narrative que j’étudie à l’Institut de Formation à la Pratique Psychologique en ligne de la fondation « Le Futur Aujourd’hui » (Moscou).\n\nJe travaille avec des adultes, souffrant de difficultés personnelles, perte de sens, difficultés relationnelles, dépressions, stress post-traumatique, deuil pathologique. Mon expérience de bénévolat sur un site de prévention de suicide m’aide dans le travail avec des états de crise suicidaire ou de rétablissement après une tentative de suicide. Je m’intéresse aussi à l’accompagnement des parents ayant un enfant avec un handicap mental ou une maladie psychique.\n\nGrâce à mes deux premières formations, à part le dialogue, j’utilise des formes de travail très variées, comme des méthodes d’art-thérapie.\n\nMon crédo pourrait se résumer dans les mots de Viktor Frankl, le fondateur de la logothérapie, survivant d’Auschwitz : « On peut tout enlever à un homme, sauf une chose, la dernière des libertés humaines : celle de décider de sa conduite quelles que soient les circonstances dans lesquelles il se trouve. »\n\nJe ne vais pas tenter de vous changer (je ne le pourrais pas, d’ailleurs, personne ne peut changer l’autre, on ne change que soi-même), je ne vais pas vous donner de leçon, je ne vais pas vous guider, parce que vous – c’est vous, et vous ne devez pas me suivre, vous avez votre propre chemin devant vous. Je crois que chaque humain a une source intérieure, à laquelle on peut venir puiser et trouver les forces pour vivre sa vie dans la joie.\n\nJe pense que mon rôle de spécialiste de la relation d’aide est de marcher à côté, et non devant, en proposant mon aide à des tournants compliqués du chemin, vous accompagner sur votre route, tant que vos jambes ne deviendront pas assez fortes pour continuer sans moi.\n\nJe vis à Metz, mais je consulte aussi par Skype, par chat, par courriel, par téléphone et même par correspondance."
+  },
+  "first": {
+    "tab": "Thérapie narrative",
+    "title": "Thérapie narrative",
+    "content": "Dans mon travail, je pratique l’approche narrative. C’est une approche thérapeutique nouvelle, qui a été créée dans les années 1970-1980. Ses auteurs – le travailleur social australien Michael White, et le psychologue néo-zélandais David Epston. L’homme peut être lui-même l’auteur de son histoire. Le but de la thérapie narrative – créer un espace dans lequel la personne en demande d’aide (que je préfère ne pas appeler « patient », puisque le « patient » reste un receveur de soin) peut créer sa propre histoire préférable, et non une histoire problématique, imposée par la société, par son éducation ou par divers traumas. L’approche narrative rend au client de la thérapie la possibilité de redevenir auteur de sa vie, et l’aide à trouver dans son entourage et dans son expérience ce qui peut affirmer et confirmer ses choix. Le praticien narratif croit que le client est l’expert principal de sa propre vie, et il va surtout prêter attention à ce que la personne raconte elle-même, et non aux diagnostics, résultats de tests, aux normes de la société, etc. C’est le client qui choisit et qui décide du chemin à prendre dans la thérapie. Imaginez-vous que votre vie est un chemin tracé sur une carte, avec des petites balises collées aux moments-clés de votre biographie. Souvent, quand nous racontons notre vie, nous faisons des moments les plus douloureux les moments-charnières, puisque c’est ce qui attire le plus notre attention. Le thérapeute narratif vous aidera à trouver des « épisodes uniques », des événements qui, peut-être, ont eu lieu dans la même période qu’un trauma, mais sortent de la ligne d’une « histoire problématique ». En tant que praticienne narrative, je vous aiderai non pas à réécrire votre histoire, chaque parcelle de votre expérience est précieuse, mais à changer le balisage, à mettre l’accent sur d’autres moments que ceux qui font mal. Les procédés du praticien narratif L’externalisation du problème : le praticien narratif croit que le problème ne fait pas partie de la personne, mais que c’est une réalité avec laquelle s’instaure une relation d’influence réciproque : le problème influence l’homme, l’homme influence le problème. Au cours du travail thérapeutique, le client choisit la relation qu’il veut avoir avec le problème. La déconstruction : c’est une méthode qui permet de prendre conscience que je suis l’auteur de mon histoire, grâce à l’étude du contexte de la naissance des idées sur le monde qui m’entoure, la société, la vie. Grâce à cette méthode, on découvre qui, en vérité, est l’auteur des idées qui ont une influence sur notre vie, et on peut choisir d’y adhérer, ou pas. Re-membering — c’est la recherche dans la vie du client de personnes ou d’objets qui soutiennent et renforcent l’histoire préférable. Le travail avec des témoins extérieurs : le client raconte son histoire non seulement à un praticien, mais aussi à des témoins, qui partagent ensuite comment leur vision de cette personne a changé, qu’est-ce qui était important pour eux dans son expérience, à quoi cela fait écho dans leur vie, qu’est-ce que son récit leur apporte de nouveau. Les formes de travail dans l’approche narrative sont souples, le client peut toujours choisir quelle direction prendre et comment avancer. En premier lieu, c’est, certes, un entretien, dans lequel je vous poserai beaucoup de questions, en proposant parfois de choisir entre mes questions celle à laquelle vous avez plus envie de répondre.",
+    "button": "Plus de détails"
+  },
+  "second": {
+    "tab": "Externalisation du problème",
+    "title": "Externalisation du problème",
+    "content": "Description de l'externalisation du problème.",
+    "button": "Plus de détails"
+  },
+  "third": {
+    "tab": "Pratiques écrites",
+    "title": "Pratiques écrites",
+    "content": "Description des pratiques écrites.",
+    "button": "Plus de détailss"
+  },
+  "four": {
+    "tab": "Art-thérapie",
+    "title": "Art-thérapie",
+    "content": "Description de l'art-thérapie.",
+    "button": "Plus de détails"
+  },
+  "methods":{
+    "title":"Plus d'informations sur les méthodes"
+  },
+
+  "prix":{
+    "title":"Consultation Psychologique Individuelle - 60 minutes",
+    "prix":"50 euros.",
+    "zagolovok": "Options de travail et coût"
+
+  },
+  "diplome": {
+    "about": "À propos de mon diplôme",
+    "subtitle": "Éducation de base:",
+    "firstabout": "J'ai terminé un master à l'Université d'État de psychologie et de pédagogie de Moscou, spécialité « Aide psychologique dans le domaine social (en utilisant les technologies de l'information) ».",
+    "subtitleplus": "Formation professionnelle complémentaire:",
+    "firstaboutplus": "Centre de formation \"Professionnel\"",
+    "accordionTitle1": "Certificat de formation à l'approche narrative dans le traitement des traumatismes psychiques",
+    "accordionTitle2": "Diplôme de réussite du cours fondamental de pratique narrative, spécialisation dans le trauma psychique",
+    "accordionTitle3": "Certificat de formation à l'utilisation de Cartes associatives, métaphores et images dans le trauma psychique",
+     "secondeaboutplus": "Institut en ligne des pratiques psychothérapeutiques, Moscou",
+    "accordionTitleseonde": "Certificat de formation pour travailler avec des personnes en crise utilisant l'approche narrative",
+    "thirdaboutplus": "Centre de Formation à Distance en Thérapeutiques Littéraires de Daria Koutousova",
+        "accordionTitlethird": "Formations Diverses en Littérature Thérapeutique",
+        "thirdaboutplusDetails": "Écrire un texte pour i18next...",
+        "additionalTrainingInfo": "Formations à l'animation d'ateliers d'écriture, bibliothérapie.",
+        "forthabout": "Institut de Counseling (Moscou)",
+        "accordionTitleforth": "Les bases de la consultation en psychologie",
+       
+        "fifthaboutplus": "Projet de formation d'Anton Jezhov",
+        "accordionTitlefifth": "Psychiatrie pour psychologues",
+        "sixaboutplus": "Centre de formation 'Atelier narrative'",
+        "accordionTitlesix": "Art-thérapie appliquée à la thérapie narrative",
+        "sevenaboutplus": "Institut de psychologie de travail et de psychologie clinique",
+        "accordionTitleseven": "Psychiatrie pour psychologues",
+        "eightaboutplus": "Musicothérapie",
+        "accordionTitleeight": "Cours d'Alice Apreleva (Boston, USA)",
+        "nineaboutplus": "Université Johns-Hopkins (Coursera).",
+        "accordionTitlenine": "Psycological First Aid",
+        "tenaboutplus": "Yale University (Coursera)",
+        "accordionTitleten": "Compétences cliniques en traitement de l'addiction pour les professionnels de la santé",
+         "elevenaboutplus": "Formation en psychothérapie PESI UK",
+        "accordionTitleleven": "Formations diverses"
+        
+      
+      
+  },
+  "p": {
+          "prix": "Je travaille sur Zoom, Skype ou en personne. Les consultations en personne se font à Metz."
+        }
+  
+
+}
+
+

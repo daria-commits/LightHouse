@@ -1,0 +1,190 @@
+{
+  "logo": "Marie Velikanov, psychologist",
+  "home": "Home",
+  "about": "About",
+  "seducation": "Education",
+  "dropdown": "Working methods",
+  "action": "Narrative therapy",
+  "another_action": "Problem externalization",
+  "something": "Writing practices",
+  "separated_link": "Art therapy",
+  
+  "hero": {
+    "title": "Marie Vélikanov",
+    "subtitle": "Psychopractitioner, specializing in relational psychotherapy, narrative practices, and writing therapy"
+  },
+  "footer": {
+    
+    "description": "Psychopractitioner, specializing in relational psychotherapy, narrative practices, and writing therapy.",
+    "categories": "Useful Links",
+    "quickLinks": "Contacts",
+    "copyright": "Copyright © 2024 Tous droits réservés par",
+    "links": {
+      "c": "Home",
+      "uiDesign": "About",
+      "php": "Services",
+      "java": "Java",
+      "android": "Android",
+      "templates": "Modèles",
+      "aboutUs": "À propos de nous",
+      "contactUs": "Contactez-nous",
+      "contribute": "Contribuer",
+      "privacy": "Politique de confidentialité",
+      "sitemap": "Plan du site"
+    
+
+    }
+
+  },
+  "titre": {
+    "about": "About Me"
+  },
+
+  "subtitre": {
+    "subtitle": "My name is Maria Velikanova, I am a psychologist, non-medical psychotherapist, and narrative practitioner. I work in two languages, Russian and French.I use these methods in my work:"
+  },
+  "texte": {
+    "first": "Narrative therapy helps in creating a 'preferred life story' with a focus on the client's own choices.",
+     "second": "Externalization of the problem is the work of seeing the problem as a separate phenomenon, not as part of the client's personality.",
+      "third": "Writing practices are structured techniques for gaining awareness and addressing issues.",
+      "four": "Art Therapy** – using creative expression (drawing, collage, music) as part of therapeutic work."
+  },
+
+  "button": {
+    "rdv": "Take un appointement",
+    "about": "Learn more about me"
+},
+
+ "modal": {
+    "modalHeading": "Submit an application",
+    "email": "Email address",
+    "firstName": "First Name",
+    "consultationFormat": "Choose your consultation format",
+    "individual": "Individual consultation",
+    "couple": "Couple consultation",
+    "upgradeProgram": "Upgrade of parent-child relationships",
+    "textarea": "Example textarea",
+    "closeButton": "Close",
+    "saveChanges": "Send",
+     "close": "Close",
+      "saving": "Send"
+  },
+
+  "translation": {
+    "contactUs": "Contacts",
+    "name": "Name, Surname",
+    "email": "Email Address",
+   "phoneNumber": "Phone Number",
+    "subject": "Subject",
+    "message": "Your Message",
+    "sendMessage": "SEND MESSAGE",
+    "contactInfo": "Contact Information",
+    "address": "Rue de Metz, Metz, France",
+    "contactPhone": "Phone",
+    "contactEmail": "Email",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "email@gmail.com",
+    "placeholderPhone": "+3300000000",
+    "placeholderSubject": "Subject",
+    "placeholderMessage": "Your message here"
+   
+  },
+  "aboutpage":{
+    "phrase": "A lighthouse is not a port. Ships usually do not sail towards the lighthouse,but the lighthouse comes in the path of the ship in difficult moments, in a storm, in fog, when it is unclear where to sail, the path is indistinguishable, and obstacles seem insurmountable...",
+    "phrasedex":"This is how I see the role of the psychological practitioner. The lighthouse keeper is happy when the ship's captain, thanks to the light of the lighthouse, passes by the dangerous rocks and continues on his way toward the goal, without lingering near the lighthouse."
+
+
+  },
+  
+    "titreabout": {
+    "aboutpage": "My name is Marie Vélikanov"
+  },
+  "subtitleabout": {
+    "subtitle": "Psychopractitioner, specializing in relational psychotherapy"
+  },
+  "texteabout": {
+    "firstabout": "I am a psychopractitioner, specializing in relational psychotherapy, narrative practices, and writing therapy. I work in two languages, Russian and French.\n\nBefore specializing in the field of psychotherapeutic support, I studied music (choir conducting) and literature.\n\nI trained at the Institute of Consultative Psychology in person-centered therapy (Carl Rogers), followed by various trainings in writing therapy. I also worked with individuals in suicidal crisis as part of an in-depth internship for volunteers on the 'Choose Life' website, a Russian suicide prevention and awareness site that I founded and manage.\n\nCurrently, I continue to deepen my knowledge and specialize in the narrative approach, studying at the Institute for Online Psychological Practice 'The Future Today' (Moscow)."
+  },
+  "textedeux": {
+    "textedeux": "I work with people who have experienced psychological trauma. I have worked for several years with people on the brink of suicide, so I have experience dealing with difficult emotional states.\n\nI am a responsible person, and my responsibility includes not trying to work alone, say, with clinical depression requiring medical treatment. I will not refuse such a client, but I will agree to work only in collaboration with a doctor. I also believe that it is my responsibility to undergo personal therapy and supervision: the difficulties a psychologist, like any human being, faces in their life should not spill over into interactions with the client. That is why I currently have both a therapist and a supervisor.\n\nI do not work with couples, children, or adult requests related to parenting.\n\nHowever, I have experience working with parents of special children (children with developmental disorders).\n\nMy credo as a psychologist can be expressed in the phrase of the founder of logotherapy, Viktor Frankl: \"So what is man? It is a being who always decides who he is.\"\n\nI will never try to change you (it is not within my powers, nor anyone else's), I will not teach you, I will not lead you, because you are you, and you do not need to follow me, you have your own path. I believe that every person has a resource, an inner source, from which they can live their life, enjoying and bringing joy to others.\n\nI consider that my role as a consulting psychologist is to walk alongside you, not ahead, sometimes offering my shoulder at difficult turns, being a helper on your path, until your legs become strong enough for an independent journey.\n\nI live in France, in Metz, so I mainly use video consultations, sometimes chat and email. If you live in Western Europe, since mail works very quickly here, old-fashioned correspondence on paper is also possible. I trained at the Institute of Consultative Psychology in the person-centered approach (Carl Rogers), and then I followed several training courses in writing therapy. I also learned to work with people in suicidal crisis during an in-depth internship for volunteers at the Choose Life website, a Russian suicide prevention site created and run by me. All of this training was done in Moscow, Russia.\n\nRight now, I continue to deepen my knowledge and skills, specializing in the narrative approach that I study at the Institute of Training in Psychological Practice online from the foundation \"The Future Today\" (Moscow).\n\nI work with adults suffering from personal difficulties, loss of meaning, relational difficulties, depression, post-traumatic stress, pathological mourning. My volunteer experience on a suicide prevention site helps me work with suicidal crisis states or recovery after a suicide attempt. I am also interested in supporting parents who have a child with a mental disability or a psychological illness.\n\nThanks to my first two trainings, apart from dialogue, I use very varied forms of work, such as art therapy methods.\n\nMy credo could be summarized in the words of Viktor Frankl, the founder of logotherapy, a survivor of Auschwitz: \"Everything can be taken from a man except one thing, the last of the human freedoms: to choose one's attitude in any given set of circumstances.\"\n\nI will not attempt to change you (I could not, in fact, no one can change another, we can only change ourselves), I will not lecture you, I will not guide you, because you – you are you, and you must not follow me, you have your own path ahead of you. I believe that every human has an inner source from which they can draw strength to live their life joyfully.\n\nI believe that my role as a helping relationship specialist is to walk beside you, not ahead, offering my help at complicated turns in the road, accompanying you on your journey until your legs become strong enough to continue without me.\n\nI live in Metz, but I also consult via Skype, chat, email, phone, and even by correspondence."
+  },
+  "first": {
+    "tab": "Narrative Therapy",
+    "title": "Narrative Therapy",
+    "content": "In my work, I practice the narrative approach. It is a new therapeutic approach that was created in the 1970s-1980s. Its authors are Australian social worker Michael White and New Zealand psychologist David Epston. A person can be the author of their own story. The goal of narrative therapy is to create a space in which the person seeking help (whom I prefer not to call a 'patient', as a 'patient' remains a recipient of care) can create their own preferred story, rather than a problematic story imposed by society, upbringing, or various traumas. The narrative approach allows therapy clients to reclaim authorship of their lives and helps them find in their environment and experience what can affirm and validate their choices. The narrative practitioner believes that the client is the primary expert in their own life and will mainly pay attention to what the person themselves narrates, rather than to diagnoses, test results, societal norms, etc. It is the client who chooses and decides the path to take in therapy. Imagine that your life is a path drawn on a map, with small markers attached to key moments in your biography. Often, when we tell our life story, we make the most painful moments the turning points, as they draw our attention the most. The narrative therapist will help you find 'unique episodes', events that may have occurred at the same time as a trauma but deviate from the line of a 'problematic story.' As a narrative practitioner, I will help you not to rewrite your story; every piece of your experience is valuable, but to change the markers, to emphasize other moments rather than those that hurt. The processes of the narrative practitioner: Externalization of the problem: the narrative practitioner believes that the problem is not part of the person but is a reality with which a reciprocal influence relationship is established: the problem influences the person, and the person influences the problem. During the therapeutic work, the client chooses the relationship they want to have with the problem. Deconstruction: this is a method that allows one to realize that I am the author of my own story through studying the context in which ideas about the surrounding world, society, and life arise. With this method, we discover who, in truth, is the author of the ideas that influence our lives and can decide whether to adhere to them or not. Re-membering: this involves looking in the client's life for people or things that support and strengthen the preferred story. Working with external witnesses: the client tells their story not only to a practitioner but also to witnesses who then share how their view of this person has changed, what was important for them in their experience, what resonates with their lives, and what new insights they gain from the client's narrative. The forms of work in the narrative approach are flexible; the client can always choose which direction to take and how to proceed. Primarily, it is indeed a conversation in which I will ask you many questions, sometimes offering you a choice between my questions to answer the one you are most inclined to.",
+    "button": "More details"
+  },
+  "second": {
+    "tab": "Externalization of the Problem",
+    "title": "Externalization of the Problem",
+    "content": "Description of externalization of the problem.",
+    "button": "More details"
+  },
+  "third": {
+    "tab": "Written Practices",
+    "title": "Written Practices",
+    "content": "Description of written practices.",
+    "button": "More details"
+  },
+  "four": {
+    "tab": "Art Therapy",
+    "title": "Art Therapy",
+    "content": "Description of art therapy.",
+    "button": "More details"
+  },
+  "methods":{
+    "title":"More about the methods"
+  },
+
+  "prix":{
+    "title":"Individual Psychological Counseling - 60 minutes",
+     "prix":"50 euros.",
+    "zagolovok": "Work options and price"
+  },
+  "diplome": {
+    "about": "My education",
+    "subtitle": "Basic education:",
+    "firstabout": "I graduated with a master's degree from Moscow State Psychological and Pedagogical University, specializing in 'Psychological assistance in the social sphere (using information technologies)'.",
+    "subtitleplus": "Additional Professional Education:",
+    "firstaboutplus_en": "\"Professional\" Training Center",
+    "accordionTitle1": "Certificate of Training in the Narrative Approach to Treating Psychological Trauma",
+    "accordionTitle2": "Diploma of Completion of the Fundamental Course in Narrative Practice, Specialization in Psychological Trauma",
+    "accordionTitle3": "Certificate of Training in the Use of Associative Cards, Metaphors, and Images in Psychological Trauma",
+    "secondeaboutplus": "Online Institute of Psychotherapeutic Practices, Moscow",
+    "accordionTitleseonde": "Certificate of Training for Working with People in Crisis Using the Narrative Approach",
+    "thirdaboutplus": "Distance Training Centre in Literary Therapeutics by Daria Koutousova",
+    "accordionTitlethird": "Various Training in Literary Therapy",
+    "thirdaboutplusDetails": "Write a text for i18next...",
+    "additionalTrainingInfo": "Training in animation of writing workshops, bibliotherapy.",
+    "forthabout": "Counseling Institute (Moscow)",
+        "accordionTitleforth": "Basics of Psychological Counseling",
+       
+        "fifthaboutplus": "Training Project by Anton Jezhov",
+       
+        
+        "projectDescription": "Description of the training project",
+        "sixaboutplus": "Training Center 'Narrative Workshop'",
+        "accordionTitlesix": "Applied Art Therapy in Narrative Therapy",
+        "sevenaboutplus": "Institute of Work Psychology and Clinical Psychology",
+        "accordionTitleseven": "Psychiatry for Psychologists",
+         "eightaboutplus": "Music Therapy",
+        "accordionTitleeight": "Course by Alice Apreleva (Boston, USA)",
+        "nineaboutplus": "Johns Hopkins University (Coursera).",
+        "accordionTitlenine": "Psychological First Aid",
+         "tenaboutplus": "Yale University (Coursera)",
+        "accordionTitleten": "Addiction Treatment Clinical Skills for Healthcare Providers",
+        "elevenaboutplus": "PESI UK Psychotherapy Training",
+        "accordionTitleleven": "Various Trainings"
+       
+  },
+  "p": {
+    "prix": "I work on Zoom, Skype, or in person. In-person consultations are held in Metz."
+  }
+  
+}
+
+ 
+  
+
+  
+

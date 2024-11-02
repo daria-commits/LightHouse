@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+.logo{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-custom {
+  padding-top: 5px; /* Réduit l'espacement en haut */
+  padding-bottom: 5px; /* Réduit l'espacement en bas */
+  min-height: 60px; /* Ajustez cette valeur selon la hauteur souhaitée */
+}
+
+
+
+/* Appliquer la police Lato à tous les éléments Nav */
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-item {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; /* Ajustez le poids de la police si nécessaire */
+ color: #1F2A33;
+ padding: 5px 10px; /* Réduit l'espacement autour du texte */
+  font-size: 14px; /* Ajustez la taille du texte pour qu'elle soit plus petite */
+
+}
+.dropdown-item.active {
+  background-color: transparent; /* Couleur d'arrière-plan transparente */
+  color: #8C6C5A; /* Couleur du texte */
+}
+
+.dropdown-item:hover {
+  background-color: #8C6C5A; /* Couleur d'arrière-plan au survol */
+  color: white; /* Couleur du texte au survol */
+}

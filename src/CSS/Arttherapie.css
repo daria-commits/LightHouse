@@ -1,0 +1,9 @@
+.haute-section-arttherapie{
+    width: 100%;
+    background-color: #CEDEF2; /* Couleur de fond douce */
+    padding: 80px 20px; /* Espacement intérieur */
+    display: flex; /* Utiliser flexbox pour le layout */
+    justify-content: center; /* Centrer le contenu */
+    color: #364959;
+    font-size: 25px !important;
+}
