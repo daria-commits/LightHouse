@@ -1,0 +1,71 @@
+
+services:
+  directus-database:
+    image: postgis/postgis:13-master
+    container_name: directus-database
+   
+    volumes:
+      - ./data/database:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "directus"
+      POSTGRES_PASSWORD: "directus"
+      POSTGRES_DB: "directus"
+    healthcheck:
+      test: ["CMD", "pg_isready", "--host=localhost", "--username=directus"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_interval: 5s
+      start_period: 30s
+    networks: 
+    - directus
+  directus-cache:
+    container_name: directus-cache
+    image: redis:6
+    healthcheck:
+      test: ["CMD-SHELL", "[ $$(redis-cli ping) = 'PONG' ]"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_interval: 5s
+      start_period: 30s
+    networks: 
+    - directus
+  directus:
+    container_name: directus
+    image: directus/directus:11.3.5
+    ports:
+      - 8055:8055
+    volumes:
+      - ./data/uploads:/directus/uploads
+      - ./data/extensions:/directus/extensions
+    depends_on:
+      directus-database:
+        condition: service_healthy
+      directus-cache:
+        condition: service_healthy
+    environment:
+      SECRET: "replace-with-secure-random-value"
+
+      DB_CLIENT: "pg"
+      DB_HOST: "directus-database"
+      DB_PORT: "5432"
+      DB_DATABASE: "directus"
+      DB_USER: "directus"
+      DB_PASSWORD: "directus"
+
+      CACHE_ENABLED: "true"
+      CACHE_AUTO_PURGE: "true"
+      CACHE_STORE: "redis"
+      REDIS: "redis://directus-cache:6379"
+
+      ADMIN_EMAIL: "admin@example.com"
+      ADMIN_PASSWORD: "d1r3ctu5"
+    networks: 
+    - directus
+      
+networks:
+  directus:
+    name: directus 
+    external: true
+  
