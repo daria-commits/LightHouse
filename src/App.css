@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cedarville+Cursive&family=Great+Vibes&family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meie+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Assurez-vous d'utiliser box-sizing pour un meilleur contrôle */
+  box-sizing: border-box; 
+ 
+}
+body{
+  background-color: #fefafa;
 }
 
 .navbar-custom {
@@ -14,14 +17,7 @@
 }
 
 
-/* Appliquer la police Libre Baskerville à tous les titres (h1, h2, h3, h4, h5, h6) */
-h1 {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 60px;
-  
-}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 40px; /* Taille pour les mobiles */
@@ -29,7 +25,7 @@ h1 {
 }
 
 h2, h3 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 700;
   font-style: normal;
   
@@ -41,13 +37,19 @@ h2, h3 {
 /* Appliquer la police Lato à tout le texte normal (div, p, span, etc.) */
 body, div, span, a, h4 ,.navbar-custom .nav-link,
 .navbar-custom .dropdown-item{
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: "Open Sans", sans-serif; 
+  font-optical-sizing: auto;            
+  font-weight: 400;                     
+  font-style: normal;                   
+  font-variation-settings: "wdth" 100;  
 }
 
 p{
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-family: "Open Sans", sans-serif; 
+  font-optical-sizing: auto;            
+  font-weight: 400;                     
+  font-style: normal;                   
+  font-variation-settings: "wdth" 100;  
   
 }
 

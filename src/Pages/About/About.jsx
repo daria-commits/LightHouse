@@ -1,18 +1,19 @@
-import React from 'react';
+
 import { useTranslation } from 'react-i18next';
 import '../../CSS/About.css';
-import Haute from '../../components/Haute/Haute';
+
 import AboutPage from '../../components/AboutPage/AboutPage';
 import imageDiplome from '../../assets/diplome.png';
 import Accordion from 'react-bootstrap/Accordion';
 import Contact from '../../components/Contact/Contact';
 import Prix from '../../components/Prix/Prix'
+import HauteDeux from '../../components/HauteDeux/HauteDeux';
 function About() {
     const { t } = useTranslation('global');
 
     return (
         <>
-            <Haute />
+            <HauteDeux />
             <AboutPage />
             
             <div className="droite-diplome">

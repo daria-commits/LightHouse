@@ -13,28 +13,26 @@
     "title": "Marie Vélikanov",
     "subtitle": "Psychopractitioner, specializing in relational psychotherapy, narrative practices, and writing therapy"
   },
-  "footer": {
+"footer": {
+      "description": "Maria Velikanova, Psychotherapist specializing in relational psychotherapy, narrative practices, and writing therapy.",
+      "categories": "Categories",
+      "quickLinks": "Contacts",
+      "copyright": "Copyright © 2024 All rights reserved by",
+      "links": {
+        "c": "Home",
+        "uiDesign": "About Me",
+        "php": "Work Methods",
+        "methods": {
+          "narrative": "Narrative Approach",
+          "externalization": "Problem Externalization",
+          "writing": "Writing Practices",
+          "artTherapy": "Art Therapy"
+        },
+        "privacy": "Privacy Policy",
+        "sitemap": "Sitemap",
+        "titre.about": "About Me"
+      }
     
-    "description": "Psychopractitioner, specializing in relational psychotherapy, narrative practices, and writing therapy.",
-    "categories": "Useful Links",
-    "quickLinks": "Contacts",
-    "copyright": "Copyright © 2024 Tous droits réservés par",
-    "links": {
-      "c": "Home",
-      "uiDesign": "About",
-      "php": "Services",
-      "java": "Java",
-      "android": "Android",
-      "templates": "Modèles",
-      "aboutUs": "À propos de nous",
-      "contactUs": "Contactez-nous",
-      "contribute": "Contribuer",
-      "privacy": "Politique de confidentialité",
-      "sitemap": "Plan du site"
-    
-
-    }
-
   },
   "titre": {
     "about": "About Me"
@@ -89,9 +87,9 @@
     "placeholderMessage": "Your message here"
    
   },
-  "aboutpage":{
-    "phrase": "A lighthouse is not a port. Ships usually do not sail towards the lighthouse,but the lighthouse comes in the path of the ship in difficult moments, in a storm, in fog, when it is unclear where to sail, the path is indistinguishable, and obstacles seem insurmountable...",
-    "phrasedex":"This is how I see the role of the psychological practitioner. The lighthouse keeper is happy when the ship's captain, thanks to the light of the lighthouse, passes by the dangerous rocks and continues on his way toward the goal, without lingering near the lighthouse."
+  "aboutpagedeux":{
+    "phraseun": "A lighthouse is not a port. Ships usually do not sail towards the lighthouse,but the lighthouse comes in the path of the ship in difficult moments, in a storm, in fog, when it is unclear where to sail, the path is indistinguishable, and obstacles seem insurmountable...",
+    "phrasedeuxdeux":"This is how I see the role of the psychological practitioner. The lighthouse keeper is happy when the ship's captain, thanks to the light of the lighthouse, passes by the dangerous rocks and continues on his way toward the goal, without lingering near the lighthouse."
 
 
   },
@@ -111,13 +109,13 @@
   "first": {
     "tab": "Narrative Therapy",
     "title": "Narrative Therapy",
-    "content": "In my work, I practice the narrative approach. It is a new therapeutic approach that was created in the 1970s-1980s. Its authors are Australian social worker Michael White and New Zealand psychologist David Epston. A person can be the author of their own story. The goal of narrative therapy is to create a space in which the person seeking help (whom I prefer not to call a 'patient', as a 'patient' remains a recipient of care) can create their own preferred story, rather than a problematic story imposed by society, upbringing, or various traumas. The narrative approach allows therapy clients to reclaim authorship of their lives and helps them find in their environment and experience what can affirm and validate their choices. The narrative practitioner believes that the client is the primary expert in their own life and will mainly pay attention to what the person themselves narrates, rather than to diagnoses, test results, societal norms, etc. It is the client who chooses and decides the path to take in therapy. Imagine that your life is a path drawn on a map, with small markers attached to key moments in your biography. Often, when we tell our life story, we make the most painful moments the turning points, as they draw our attention the most. The narrative therapist will help you find 'unique episodes', events that may have occurred at the same time as a trauma but deviate from the line of a 'problematic story.' As a narrative practitioner, I will help you not to rewrite your story; every piece of your experience is valuable, but to change the markers, to emphasize other moments rather than those that hurt. The processes of the narrative practitioner: Externalization of the problem: the narrative practitioner believes that the problem is not part of the person but is a reality with which a reciprocal influence relationship is established: the problem influences the person, and the person influences the problem. During the therapeutic work, the client chooses the relationship they want to have with the problem. Deconstruction: this is a method that allows one to realize that I am the author of my own story through studying the context in which ideas about the surrounding world, society, and life arise. With this method, we discover who, in truth, is the author of the ideas that influence our lives and can decide whether to adhere to them or not. Re-membering: this involves looking in the client's life for people or things that support and strengthen the preferred story. Working with external witnesses: the client tells their story not only to a practitioner but also to witnesses who then share how their view of this person has changed, what was important for them in their experience, what resonates with their lives, and what new insights they gain from the client's narrative. The forms of work in the narrative approach are flexible; the client can always choose which direction to take and how to proceed. Primarily, it is indeed a conversation in which I will ask you many questions, sometimes offering you a choice between my questions to answer the one you are most inclined to.",
+    "content": "In my work, I practice the narrative approach. It is a new therapeutic approach that was created in the 1970s-1980s. Its authors are Australian social worker Michael White and New Zealand psychologist David Epston. A person can be the author of their own story.",
     "button": "More details"
   },
   "second": {
     "tab": "Externalization of the Problem",
     "title": "Externalization of the Problem",
-    "content": "Description of externalization of the problem.",
+    "content": "Description of externalization of the problem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
     "button": "More details"
   },
   "third": {

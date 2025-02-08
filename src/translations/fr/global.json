@@ -12,21 +12,26 @@
     "subtitle": "Psychopraticienne, spécialisée dans la psychothérapie relationnelle, les pratiques narratives et l'écriture-thérapie"
   },
   "footer": {
-     "description": "Marie Vélikanov,Psychopraticienne, spécialisée dans la psychothérapie relationnelle, les pratiques narratives et l'écriture-thérapie.",
-    "categories": "Liens Utiles",
+    "description": "Maria Velikanova, psychothérapeute spécialisée en thérapie relationnelle, pratiques narratives et thérapie par l'écriture.",
+    "categories": "Catégories",
     "quickLinks": "Contacts",
     "copyright": "Copyright © 2024 Tous droits réservés par",
     "links": {
       "c": "Accueil",
-      "uiDesign": "A propos",
-      "php": "Services",
-      "java": "Java",
-     
+      "uiDesign": "À propos",
+      "php": "Méthodes de travail",
+      "methods": {
+        "narrative": "Approche narrative",
+        "externalization": "Externalisation du problème",
+        "writing": "Pratiques d'écriture",
+        "artTherapy": "Art-thérapie"
+      },
       "privacy": "Politique de confidentialité",
       "sitemap": "Plan du site",
-      "titre.about":"A propos"
+      "titre.about": "À propos"
     }
-  },
+  
+},
   "titre": {
     "about": "À propos de moi"
   },
@@ -81,9 +86,9 @@
     "placeholderMessage": "Votre message ici"
    
   },
-  "aboutpage":{
-    "phrase": "Le phare n’est pas le port. Les bateaux ne naviguent pas vers un phare, mais le phare se profile à l’horizon dans les moments difficiles, la tempête, le brouillard, quand on ne distingue plus le chemin et les obstacles semblent infranchissables…",
-    "phrasedeux":"C’est ainsi que je vois le rôle du praticien psy. Le gardien du phare est heureux quand le capitaine du navire, grâce à la lumière du phare, passe à côté des rochers dangereux et continue son chemin vers le but, sans s’attarder près du phare."
+  "aboutpagedeux":{
+    "phraseun": "Le phare n’est pas le port. Les bateaux ne naviguent pas vers un phare, mais le phare se profile à l’horizon dans les moments difficiles, la tempête, le brouillard, quand on ne distingue plus le chemin et les obstacles semblent infranchissables…",
+    "phrasedeuxdeux":"C’est ainsi que je vois le rôle du praticien psy. Le gardien du phare est heureux quand le capitaine du navire, grâce à la lumière du phare, passe à côté des rochers dangereux et continue son chemin vers le but, sans s’attarder près du phare."
 
 
   },
@@ -102,7 +107,7 @@
   "first": {
     "tab": "Thérapie narrative",
     "title": "Thérapie narrative",
-    "content": "Dans mon travail, je pratique l’approche narrative. C’est une approche thérapeutique nouvelle, qui a été créée dans les années 1970-1980. Ses auteurs – le travailleur social australien Michael White, et le psychologue néo-zélandais David Epston. L’homme peut être lui-même l’auteur de son histoire. Le but de la thérapie narrative – créer un espace dans lequel la personne en demande d’aide (que je préfère ne pas appeler « patient », puisque le « patient » reste un receveur de soin) peut créer sa propre histoire préférable, et non une histoire problématique, imposée par la société, par son éducation ou par divers traumas. L’approche narrative rend au client de la thérapie la possibilité de redevenir auteur de sa vie, et l’aide à trouver dans son entourage et dans son expérience ce qui peut affirmer et confirmer ses choix. Le praticien narratif croit que le client est l’expert principal de sa propre vie, et il va surtout prêter attention à ce que la personne raconte elle-même, et non aux diagnostics, résultats de tests, aux normes de la société, etc. C’est le client qui choisit et qui décide du chemin à prendre dans la thérapie. Imaginez-vous que votre vie est un chemin tracé sur une carte, avec des petites balises collées aux moments-clés de votre biographie. Souvent, quand nous racontons notre vie, nous faisons des moments les plus douloureux les moments-charnières, puisque c’est ce qui attire le plus notre attention. Le thérapeute narratif vous aidera à trouver des « épisodes uniques », des événements qui, peut-être, ont eu lieu dans la même période qu’un trauma, mais sortent de la ligne d’une « histoire problématique ». En tant que praticienne narrative, je vous aiderai non pas à réécrire votre histoire, chaque parcelle de votre expérience est précieuse, mais à changer le balisage, à mettre l’accent sur d’autres moments que ceux qui font mal. Les procédés du praticien narratif L’externalisation du problème : le praticien narratif croit que le problème ne fait pas partie de la personne, mais que c’est une réalité avec laquelle s’instaure une relation d’influence réciproque : le problème influence l’homme, l’homme influence le problème. Au cours du travail thérapeutique, le client choisit la relation qu’il veut avoir avec le problème. La déconstruction : c’est une méthode qui permet de prendre conscience que je suis l’auteur de mon histoire, grâce à l’étude du contexte de la naissance des idées sur le monde qui m’entoure, la société, la vie. Grâce à cette méthode, on découvre qui, en vérité, est l’auteur des idées qui ont une influence sur notre vie, et on peut choisir d’y adhérer, ou pas. Re-membering — c’est la recherche dans la vie du client de personnes ou d’objets qui soutiennent et renforcent l’histoire préférable. Le travail avec des témoins extérieurs : le client raconte son histoire non seulement à un praticien, mais aussi à des témoins, qui partagent ensuite comment leur vision de cette personne a changé, qu’est-ce qui était important pour eux dans son expérience, à quoi cela fait écho dans leur vie, qu’est-ce que son récit leur apporte de nouveau. Les formes de travail dans l’approche narrative sont souples, le client peut toujours choisir quelle direction prendre et comment avancer. En premier lieu, c’est, certes, un entretien, dans lequel je vous poserai beaucoup de questions, en proposant parfois de choisir entre mes questions celle à laquelle vous avez plus envie de répondre.",
+    "content": "Dans mon travail, je pratique l’approche narrative. C’est une approche thérapeutique nouvelle, qui a été créée dans les années 1970-1980. Ses auteurs – le travailleur social australien Michael White, et le psychologue néo-zélandais David Epston. L’homme peut être lui-même l’auteur de son histoire.",
     "button": "Plus de détails"
   },
   "second": {

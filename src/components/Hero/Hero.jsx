@@ -5,12 +5,15 @@ import audioFile from '../../assets/audio.wav';
 import { useState, useEffect } from "react"; 
 import { CiPlay1, CiPause1 } from "react-icons/ci"; // Import des icônes Play et Pause
 
+
 function Hero() {
-  const { t } = useTranslation('global'); 
+  const { t, i18n} = useTranslation('global'); 
   const [isPlaying, setIsPlaying] = useState(false);
   const [audio] = useState(new Audio(audioFile));
+  const currentLanguage = i18n.language;
+  //i18n.language — это свойство объекта i18n, который предоставляет библиотека i18next. Это свойство:Хранит текущий язык, который установлен или автоматически определён.
+//Позволяет вам динамически использовать этот язык в вашем коде для изменения контента, стилей и логики.
 
-  // Gestion du clic pour jouer/arrêter l'audio
   useEffect(() => {
     if (isPlaying) {
       audio.play();
@@ -36,11 +39,12 @@ function Hero() {
       </div>
 
       <div className='parallax-content'>
-        <div className='parallax-title'>
+        {/* Application conditionnelle des classes CSS */}
+        <div className={`parallax-title ${currentLanguage === 'ru' ? 'russian-font' : 'default-font'}`}>
           <h1>{t('hero.title')}</h1>
-          <div className='parallax-subtitle'>
-            <h4>{t('hero.subtitle')}</h4>
-          </div>
+        </div>
+        <div className={`parallax-subtitle ${currentLanguage === 'ru' ? 'russian-subtitle' : 'default-subtitle'}`}>
+          <h4>{t('hero.subtitle')}</h4>
         </div>
 
        
@@ -51,6 +55,8 @@ function Hero() {
             <CiPlay1 className="audio-icon" size={22} color="#fff" /> // Icône Play si audio est en pause
           )}
         </button>
+
+       
       </div>
     </div>
   );

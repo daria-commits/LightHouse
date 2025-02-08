@@ -16,7 +16,7 @@ function AboutMe() {
       setModalShow(false); // Fermer le modal après avoir sauvegardé les changements
   };
     return (
-      <div className="container-about">
+      <div className="container-about" style={{ backgroundColor: '#e9d7c5' }}>
         
           {/* Colonne pour le texte */}
           <div className="text-about">

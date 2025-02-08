@@ -1,4 +1,4 @@
-import React from 'react';
+
 import imageAbout from '../../assets/mashaAbout.jpg';
 import { useTranslation } from 'react-i18next';
 import './AboutPage.css';

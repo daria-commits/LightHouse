@@ -1,57 +1,57 @@
 .section-about {
     width: 100%;
-    background-color: #F7F9FC; /* Couleur de fond douce */
-    padding: 40px 20px; /* Espacement intérieur */
-    display: flex; /* Utiliser flexbox pour le layout */
-    justify-content: center; /* Centrer le contenu */
+    background-color: #F7F9FC; 
+    padding: 40px 20px; 
+    display: flex; 
+    justify-content: center;
 }
 
 .about-page {
     width: 80%;
-    display: flex; /* Alignement horizontal des éléments */
-    flex-direction: row; /* Orientation en ligne */
-    align-items: center; /* Centrer verticalement */
-    margin: 20px auto; /* Marges automatiques pour centrer */
-    border-radius: 10px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    background-color: #FFFFFF; /* Couleur de fond blanche */
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    margin: 20px auto; 
+    border-radius: 10px; 
+  
+  
 }
 
 .gauche-about {
-    flex: 1; /* Prend un espace proportionnel */
-    margin-right: 20px; /* Espacement entre l'image et le texte */
+    flex: 1;
+    margin-right: 20px; 
 }
 
 .image-about {
-    width: 100%; /* Prendre toute la largeur de son conteneur */
-    border-radius: 8px; /* Coins arrondis pour l'image */
+    width: 100%;
+    border-radius: 8px; 
 }
 
 .droite-about {
-    flex: 2; /* Prend un espace proportionnel plus grand */
+    flex: 2; 
 }
 
 .about-title h3 {
-    font-size: 28px; /* Taille de police pour le titre */
-    color: #3B3B3B; /* Couleur du texte */
-    margin-bottom: 10px; /* Espacement en dessous */
+    font-size: 28px; 
+    color: #3B3B3B; 
+    margin-bottom: 10px; 
 }
 
 .content-about {
-    margin-top: 20px; /* Espace au-dessus du contenu */
+    margin-top: 20px; 
 }
 
 .texte-about {
-    font-size: 16px; /* Taille de la police pour le texte */
-    color: #364959; /* Couleur du texte */
-    line-height: 1.6; /* Hauteur de ligne pour aérer le texte */
+    font-size: 16px; 
+    color: #364959; 
+    line-height: 1.6; 
 }
 
 hr {
-    margin: 20px 0; /* Espacement autour de la ligne */
-    border: none; /* Retire la bordure par défaut */
-    height: 1px; /* Épaisseur de la ligne */
-    background-color: #E0E0E0; /* Couleur de la ligne */
+    margin: 20px 0; 
+    border: none; 
+    height: 1px; 
+    background-color: #E0E0E0; 
 }
 
 .texte-deux {

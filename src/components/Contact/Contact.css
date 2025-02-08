@@ -5,47 +5,61 @@
 
 
 .contact-area {
-  
+  position: relative; 
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-   background:#364959 ;
+ 
+}
+
+.contact-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1; 
 }
 
 input, 
 textarea {
-  color: #1F2A33; /* Couleur du texte du placeholder */
-  background-color: #CEDEF2; /* Arrière-plan spécifique au placeholder */
+  color: #2d2b1e; 
+  background-color: #fefafa;
 }
 input::placeholder, 
 textarea::placeholder {
-  color: #1F2A33; /* Couleur du texte du placeholder */
-  background-color: #CEDEF2; /* Arrière-plan spécifique au placeholder */
+  color: #513018;
+  background-color: #fefafa; 
 }
 .ramka {
+
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* Centre le contenu verticalement */
-  align-items: center;       /* Centre le contenu horizontalement */
+  justify-content: center;  
+  align-items: center;   
+  position: relative;
+  z-index: 2;    
   border: 2px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: #0F1519;
-  background: #CEDEF2;
+  color: #513018;
+  background: #fefafa;
   width: 70%;
   max-width: 70%;
-  height: 70vh;              /* Définit une hauteur fixe pour centrer verticalement */
+  height: 70vh;            
   padding: 20px;
   margin: auto;
 }
 
 
 .ramka .heading {
-  color: #011C40;
+  color: #513018;
   font-size: 35px;
-  width: 100%;          /* S'assure que le heading prend toute la largeur */
-  text-align: center;   /* Centre le texte horizontalement */
+  width: 100%;          
+  text-align: center;   
   margin-bottom: 20px;
 }
 .contact-area .mt-15 {
@@ -61,8 +75,8 @@ textarea::placeholder {
 
   .form-input .input-items input, 
   .form-input .input-items textarea {
-    padding-left: 20px; /* Réduit l'espace à gauche */
-    width: 110%; /* Rend les inputs plus longs */
+    padding-left: 20px; 
+    width: 110%; 
   }
 
   .form-style-four .form-input .input-items input, 
@@ -70,7 +84,7 @@ textarea::placeholder {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    width: 100%; /* Également ici pour rendre les inputs plus longs */
+    width: 100%; 
   }
 
 
@@ -94,7 +108,7 @@ textarea::placeholder {
 
 .contact-form .single-form .input-form textarea::placeholder, .contact-form .single-form .input-form input::placeholder {
   opacity: 1;
-  color:#0F1519 ;
+  color:#513018 ;
 }
 .contact-form .single-form .input-form textarea {
   padding-top: 10px;
@@ -152,105 +166,107 @@ textarea::placeholder {
 }
 
 .btn.primary-btn {
-  background-color: #364959;
-    color:#F2E6D8;
-    border: #364959;
-  border: none; 
-  padding: 10px 20px; 
-  font-size: 16px; 
-  padding: 16px 36px; 
-  border-radius: 8px;
+  background-color: #f9f9f9 !important;
+    color: #513018 !important;
+    border: 1px solid #2d2b1e !important;
+    border-radius: 50px !important;    /* Boutons arrondis */
+    padding: 10px 20px;                /* Espacement interne */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;         /* Texte en majuscules */
+    transition: all 0.3s ease-in-out;
   cursor: pointer; 
   transition: background-color 0.3s ease; /* Ajoute une transition douce lors du changement de couleur */
 }
 
 .btn.primary-btn:hover {
-  background-color: #F2E6D8; 
-  color:#364959;
+  background-color: #b19067 !important;
+  color: #fefafa !important;
+  border: 1px solid #b19067 !important; 
 }
 .info-content {
   display: flex;
-  align-items: center; /* Assure un alignement vertical des éléments */
-  gap: 10px; /* Espace entre l'icône et l'adresse email */
+  align-items: center; 
+  gap: 10px; 
 }
 
 .info-content .enveloppe {
   font-size: 24px;
-  color: #0F1519; /* Adaptez la couleur si besoin */
+  color: #b19067; 
   position: relative;
   top: -7px; 
 }
 
 .info-content .text {
   font-size: 16px;
-  color: #364959;
+  color: #513018;
   line-height: px;
 }
 
 
-/* Styles généraux pour mobile et tablette */
+
 @media (max-width: 767px) {
-  /* Ajustement de la taille de la section contact pour les petits écrans */
+  
   .contact-area {
     padding: 20px;
   }
 
-  /* Ajustement de la taille des input et textarea pour mobile */
+  
   .form-input .input-items input, 
   .form-input .input-items textarea {
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 14px; /* Réduction de la taille de police */
-    width: 100%; /* Assure que l'input prend toute la largeur disponible */
+    font-size: 14px; 
+    width: 100%; 
   }
 
-  /* Supprimer le padding excessif dans les formulaires pour mobile */
+ 
   .ramka {
     width: 100%;
     max-width: 100%;
-    padding: 20px; /* Ajoute du padding pour éviter que le texte touche les bords */
-    height: auto; /* Utilise une hauteur automatique pour adapter à la taille du contenu */
+    padding: 20px; 
+    height: auto; 
     min-height: auto;
-    box-sizing: border-box; /* S'assure que les padding sont pris en compte dans la largeur */
+    box-sizing: border-box; 
   }
   
   .ramka .heading {
-    font-size: 24px; /* Ajuste la taille du titre pour qu’il soit plus petit */
+    font-size: 24px; 
     text-align: center;
-    margin-bottom: 15px; /* Espace suffisant autour du titre */
+    margin-bottom: 15px; 
   }
 }
 
-  /* Ajustement des boutons sur mobile */
   .btn.primary-btn {
-    padding: 12px 24px; /* Réduit le padding pour un meilleur rendu sur mobile */
-    font-size: 14px; /* Réduit la taille de police */
+    padding: 12px 24px; 
+    font-size: 14px; 
   }
 
-  /* Espacement réduit dans le formulaire pour mobile */
+
   .form-input.mt-15 {
     margin-top: 10px;
   }
 
   .form-style-four .form-input .input-items input, 
   .form-style-four .form-input .input-items textarea {
-    width: 100%; /* Assure que les inputs prennent toute la largeur */
+    width: 100%;
     font-size: 14px;
   }
 
-  /* Ajustement du texte dans la section contact-info pour mobile */
+
   .contact-info .info .single-info .info-content .text {
     font-size: 14px;
   }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* Styles pour tablettes */
+ 
   .ramka {
-    width: 90%; /* Utilise un peu plus d’espace en largeur sur les tablettes */
+    width: 90%;
     max-width: 90%;
     padding: 20px;
-    height: auto; /* Garde une hauteur automatique pour les tablettes */
+    height: auto; 
   }
 
   .ramka .heading {

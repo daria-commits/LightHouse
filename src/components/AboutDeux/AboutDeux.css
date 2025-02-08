@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meie+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
@@ -9,7 +10,7 @@
 }
 .section{
     width: 100%;
-    background-color: #FDFBF9;
+   
 }
 .section .container{
     width: 80%;
@@ -21,29 +22,41 @@
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 3; 
+    display: block; 
    
 }
 
 .container .title h3{
     text-transform: uppercase;
     font-size: 30px;
-    color: #68788C;
-    font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
+    color: #513018;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3; 
+    display: block; 
 
 }
 .container .title h4{
     content: "";
     height: 5px;
     width: 100px;
-   
     border-radius: 25px;
     display: block;
+    color: #513018;
     font-size: 18px;
     margin: auto;
 }
 .content{
+    font-family: "Open Sans", sans-serif; 
+    font-optical-sizing: auto;            
+    font-weight: 400;                     
+     font-style: normal;                   
+    font-variation-settings: "wdth" 100;  
     float: left;
     width: 55%;
     margin-right: 30px; /* Ajouter un espace entre le texte et l'image */
@@ -56,15 +69,20 @@
 .image-about{
     width: 90%;
     height: auto;
-    border: 0.5px solid #8C6C5A; /* Ajoute une bordure de 5px avec la couleur spécifiée */
+    border: 0.5px solid #b19067; /* Ajoute une bordure de 5px avec la couleur spécifiée */
    border-radius: 10px; /* Vous pouvez ajuster le rayon de la bordure pour obtenir des coins arrondis */
    
 }
 
 .content .article h4{
-    color:#080A0D;
+    color: #513018;
     font-size: 17px;
     line-height: 2;
+    font-family: "Open Sans", sans-serif; 
+    font-optical-sizing: auto;            
+    font-weight: 500;                     
+     font-style: normal;                   
+    font-variation-settings: "wdth" 100; 
 
 }
 
@@ -79,57 +97,72 @@
     transform: scale(1.5); 
    top: 24px;
    width: 25px;
-   color: #364959;
+   color: #b19067;
    position: relative;
   
   }
   .first , .second , .third ,.four{
     padding-left: 30px;
     font-size: 16px;
-    color: #364959;
+    color: #513018;
+    font-family: "Open Sans", sans-serif; 
+    font-optical-sizing: auto;            
+    font-weight: 400;                     
+     font-style: normal;                   
+    font-variation-settings: "wdth" 100; 
   }
   .primary-secondary-container {
     margin-top: 60px;
-    display: flex; 
-    gap: 15px; 
-    justify-content: start; /* Alignement horizontal */
-    align-items: center; /* Alignement vertical */
-}
-.primary, .secondary {
-    display: inline-flex; /* Pour s'assurer que les boutons sont traités comme des éléments flexibles */
-    align-items: center; /* Centrer le contenu à l'intérieur du bouton */
-    height: 50px; /* Ajustez selon vos besoins */
-    padding: 16px 36px; 
-    border-radius: 8px;
-    font-size: 18px;
-}
-
-
-.primary{
-    background-color: #8C6C5A;
-    color:#F2E6D8 ;
-    border: #8C6C5A;
-}
-.primary:hover{
-    background-color: #F2E6D8;
-    color:#364959 ;
-    border: #F2E6D8
-}
-
-.secondary{
-    background-color: #364959;
-    color:#F2E6D8;
-    border: #364959;
-
-    
-}
-
-.secondary:hover{
-    background-color: #F2E6D8;
-    color:#364959 ;
-    border: #F2E6D8
-}
-
+    display: flex; /* Alignement horizontal */
+    gap: 15px; /* Espacement entre les boutons */
+    justify-content: flex-start; /* Alignement à gauche */
+    align-items: center; /* Centrage vertical */
+  }
+  
+  .primary, .secondary {
+    width: 350px; /* Taille fixe maintenue sur mobile */
+    height: 50px; /* Hauteur fixe maintenue */
+    display: inline-flex; /* S'assurer que les boutons sont flexibles */
+    justify-content: center; /* Centrer le texte à l'intérieur */
+    align-items: center;
+    height: 50px; /* Ajustez la hauteur du bouton */
+    padding: 16px 36px; /* Ajustez les marges internes */
+    border-radius: 50px; /* Pour rendre les boutons arrondis */
+    font-size: 15px;
+    text-transform: uppercase; /* (Optionnel) Mettre le texte en majuscules */
+    font-weight: bold; /* (Optionnel) Rendre le texte plus épais */
+    border: 2px solid transparent; /* Ajouter une bordure propre */
+    font-family: "Open Sans", sans-serif; 
+    font-optical-sizing: auto;            
+    font-weight: 500;                     
+     font-style: normal;                   
+    font-variation-settings: "wdth" 100; 
+  }
+  
+  .primary {
+    background-color: #b19067 !important;
+    color: #fefafa !important;
+    border: 1px solid #b19067 !important;
+  }
+  
+  .primary:hover {
+    background-color: #fefafa !important;
+    color: #513018 !important;
+    border: 1px solid #2d2b1e !important;
+  }
+  
+  .secondary {
+    background-color: #fefafa;
+    color: #513018;
+    border: 1px solid #2d2b1e;
+  }
+  
+  .secondary:hover {
+    background-color: #b19067;
+    color: #fefafa;
+    border: none;
+  }
+  
 .container .social {
     
 
@@ -140,12 +173,12 @@
     display: inline-block;
 }
 .container .social a{
-    color: #F2E6D8;
+    color: #fefafa;
     font-size: 22px; /* Taille de l'icône */
     height: 50px; /* Taille du fond circulaire */
     width: 50px; /* Taille du fond circulaire */
     border-radius: 50%; /* Forme circulaire */
-    background-color: #364959; /* Couleur du fond */
+    background-color: #2d2b1e;; /* Couleur du fond */
     margin: 0 20px; /* Espace entre les icônes */
     display: inline-block; /* Pour s'assurer qu'ils s'alignent correctement */
     line-height: 50px; /* Aligner verticalement l'icône avec le fond */
@@ -270,9 +303,19 @@ transform: rotate(360deg);
        
     }
 
+    .primary-secondary-container {
+        flex-direction:row ; /* Affiche les boutons l'un en dessous de l'autre */
+        justify-content: center; /* Centre les boutons horizontalement */
+        align-items: center; /* Centre les boutons verticalement */
+    }
+
     .primary, .secondary {
-        width: 100%; /* Les boutons occupent toute la largeur */
-        max-width: 400px; /* Limitez la largeur des boutons */
+        width: 350px; /* Taille fixe maintenue sur mobile */
+        height: 50px; /* Hauteur fixe maintenue */
+        font-size: 14px; /* Ajuste légèrement la taille du texte */
+        padding: 12px 20px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .container .title h3 {
@@ -287,13 +330,16 @@ transform: rotate(360deg);
 
     .primary-secondary-container {
         flex-direction: column; /* Affiche les boutons l'un en dessous de l'autre */
-        align-items: center; /* Centre les boutons verticalement */
+        align-items: center;
     }
 
     .primary, .secondary {
-        width: 100%; /* Les boutons occupent toute la largeur */
-        max-width: 100%; /* Enlève la limite de largeur */
-        padding: 10px 20px; /* Ajuste le padding pour les petits écrans */
+        width: 300px; /* Taille fixe maintenue sur mobile */
+        height: 50px; /* Hauteur fixe maintenue */
+        font-size: 14px; /* Ajuste légèrement la taille du texte */
+        padding: 12px 20px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .container .title h3 {

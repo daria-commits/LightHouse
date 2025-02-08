@@ -85,20 +85,7 @@ function MyVerticallyCenteredModal(props) {
                 id="individual"
                 required
               />
-              <Form.Check
-                type="radio"
-                label={t('modal.couple')} 
-                name="consultation_format"
-                value="couple"
-                id="couple"
-              />
-              <Form.Check
-                type="radio"
-                label={t('modal.upgradeProgram')} 
-                name="consultation_format"
-                value="upgradeProgram"
-                id="upgradeProgram"
-              />
+             
             </div>
           </Form.Group>
 
@@ -112,9 +99,11 @@ function MyVerticallyCenteredModal(props) {
             onClick={props.onHide}
             className='close-button'
             style={{ 
-              backgroundColor: '#F2E6D8', 
-              color: '#364959', 
-              border: '1px solid #F2E6D8' 
+              backgroundColor: '#fff', 
+              color: '#513018', 
+              border: '1px solid #2d2b1e',
+              borderRadius: '50px', 
+                fontSize: '15px',
             }}
             >{t('modal.close')}</Button>
             <Button variant="primary" type="submit" disabled={isSubmitting} className="custom-button">

@@ -27,20 +27,24 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Section liens utils */}
           <div className="col-xs-6 col-md-3">
-            <h6>{t('footer.categories')}</h6>
-            <ul className="footer-links">
-              <li><Link to="/">{t('footer.links.c')}</Link></li>
-              <li><Link to="/about">{t('footer.links.uiDesign')}</Link></li>
-              <li><Link to="/services">{t('footer.links.php')}</Link></li>
-              <li><Link to="/">{t('footer.links.java')}</Link></li>
-              
-            </ul>
-          </div>
+  <h6>{t('footer.categories')}</h6>
+  <ul className="footer-links">
+    <li><Link to="/">{t('footer.links.c')}</Link></li>
+    <li><Link to="/about">{t('footer.links.uiDesign')}</Link></li>
+    <li><Link to="/services">{t('footer.links.php')}</Link></li>
 
-          {/* contacts */}
-         {/* contacts */}
+    {/* Méthodes de travail avec gras et retrait */}
+   
+    <ul className="work-methods-list">
+      <li><Link to="/narrativetherapy">{t('footer.links.methods.narrative')}</Link></li>
+      <li><Link to="/writtenpractices">{t('footer.links.methods.writing')}</Link></li>
+      <li><Link to="/arttherapy">{t('footer.links.methods.artTherapy')}</Link></li>
+    </ul>
+  </ul>
+</div>
+
+
 <div className="col-xs-6 col-md-3">
   <h6>{t('footer.quickLinks')}</h6>
   <ul className="footer-links">

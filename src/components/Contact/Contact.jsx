@@ -2,13 +2,21 @@
 import { MdOutlineMail } from "react-icons/md";
 import './Contact.css'; 
 import { useTranslation } from 'react-i18next';
+import imageContact from '../../assets/pen.jpg';
+
 
 export default function Contact() {
   const { t } = useTranslation('global');
   return(
   <div id='contact'>
-        
-  <section className="contact-area" >
+  <section
+      className="contact-area"
+      style={{
+        background: `rgba(255, 255, 255, 0.5) url(${imageContact}) no-repeat center center / cover`,
+        backgroundAttachment: 'fixed', 
+        minHeight: '100vh',  
+      }}
+      >
     <div className='ramka'>
   <h1 className='text-center p-4 heading'>{t('translation.contactUs')}</h1>
      <div className="container">

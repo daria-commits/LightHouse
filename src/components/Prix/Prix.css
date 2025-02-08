@@ -1,51 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Great+Vibes&family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meie+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
-    box-sizing: border-box; /* Ajouté pour une meilleure gestion des dimensions */
+    box-sizing: border-box; 
 }
 
 .prix {
     margin-bottom: 100px;
-    background-color: #F2E6D8; /* Couleur de fond de la section */
-    padding: 70px; /* Ajout de padding pour l'espacement interne */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 70px; 
+    background-color: #fbf0ef;
 }
 
 .ramka-prix {
     display: flex;
     flex-direction: column;
     justify-content: center;   
-    align-items: center; /* Centre horizontalement */
+    align-items: center; 
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #364959;
-    background: #CEDEF2; /* Fond spécifique pour ramka-prix */
+    color: #513018;
+    background: #f9f9f9; /* Fond spécifique pour ramka-prix */
     width: 100%;
-    max-width: 900px; /* Ajuste si nécessaire */
+    max-width: 900px; /* Largeur maximale */
     height: 30vh;
     padding: 20px;
-    margin: auto; /* Centre la ramka-prix dans la section */
+    margin: auto; /* Centre la ramka-prix */
 }
 
 .contenue {
-    text-align: start; /* Centre le texte à l'intérieur de contenue */
+    text-align: start; /* Texte aligné à gauche */
 }
-.prix-title{
+
+.prix-title {
     margin-bottom: 25px;
 }
-.zagolovok{
+
+.zagolovok {
     margin-bottom: 25px;
     width: 100%;
     text-align: center;
-    
     text-transform: uppercase;
     font-size: 30px;
-    color: #68788C;
-    font-family: "Libre Baskerville", serif;
-  font-weight: 700;
-  font-style: normal;
+    color: #513018;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
-.prix-prix{
+
+.prix-prix {
     margin-bottom: 25px;
+}
+
+.prix-p {
+    color: #513018;
+}
+
+/* Media Queries pour la Responsivité */
+@media screen and (max-width: 1024px) {
+    .prix {
+        padding: 50px; /* Réduction des marges */
+        font-size: 14px; /* Ajuste la taille de la police */
+    }
+
+    .ramka-prix {
+        max-width: 700px; /* Diminue la largeur max */
+        height: auto; /* Laisse le contenu adapter la hauteur */
+        padding: 15px; /* Réduction du padding */
+    }
+
+    .zagolovok {
+        font-size: 25px; /* Réduction de la taille du titre */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .prix {
+        padding: 30px; /* Réduction supplémentaire des marges */
+        font-size: 12px; /* Taille de police plus petite */
+    }
+
+    .ramka-prix {
+        max-width: 600px; /* Réduction de la largeur max */
+        padding: 10px; /* Réduction du padding */
+    }
+
+    .zagolovok {
+        font-size: 20px; /* Taille encore plus petite pour le titre */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .prix {
+        padding: 20px; /* Ajuste les marges pour petits écrans */
+        font-size: 10px; /* Police adaptée pour mobiles */
+    }
+
+    .ramka-prix {
+        max-width: 90%; /* Adapte la largeur à l'écran */
+        padding: 10px; /* Maintient un petit padding */
+        height: auto; /* Hauteur flexible */
+    }
+
+    .zagolovok {
+        font-size: 18px; /* Taille réduite pour les petits écrans */
+    }
+
+    .prix-p {
+        font-size: 12px; /* Ajuste la taille du texte */
+    }
 }
