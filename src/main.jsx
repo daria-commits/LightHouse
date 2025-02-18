@@ -11,7 +11,6 @@ import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Initialisation de i18next avec LanguageDetector
 i18next.use(LanguageDetector).init({
   interpolation: { escapeValue: false },
   resources: {
@@ -19,7 +18,7 @@ i18next.use(LanguageDetector).init({
     fr: { global: global_fr },
     ru: { global: global_ru },
   },
-  fallbackLng: 'fr', // Langue par défaut si aucune langue n'est détectée
+  fallbackLng: 'fr', 
 });
 
 ReactDom.createRoot(document.getElementById('root')).render(
