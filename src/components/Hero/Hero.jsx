@@ -3,7 +3,7 @@ import './hero.css';
 import video from '../../assets/banner.mp4';
 import audioFile from '../../assets/audio.wav';
 import { useState, useEffect } from "react"; 
-import { CiPlay1, CiPause1 } from "react-icons/ci"; // Import des icônes Play et Pause
+import { CiPlay1, CiPause1 } from "react-icons/ci";
 
 
 function Hero() {

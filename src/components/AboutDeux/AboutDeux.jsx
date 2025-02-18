@@ -10,8 +10,9 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { TiInputChecked } from "react-icons/ti";
+import RenderHtmlContent from '../RenderHtmlContent/RenderHtmlContent';
 
-function AboutDeux() {
+function AboutDeux({data,language}) {
   const { t } = useTranslation('global');
   const [modalShow, setModalShow] = React.useState(false);
 
@@ -24,14 +25,15 @@ function AboutDeux() {
     <div className="section">
       <div className="container">
         <div className="title">
-          <h3>{t('titre.about')}</h3>
+          <h3>{data[`title_${language}`]} </h3>
         </div>
 
         <div className="content">
           <div className="article">
-            <h4>{t('subtitre.subtitle')}</h4>
+           
 
             <div className="text-content">
+              <RenderHtmlContent className="text-line first"  content={data[`description_${language}`]} />
               <div className="text-line">
                 <TiInputChecked  className='fleche-first' />
                 <p className='first'>{t('texte.first')}</p>
