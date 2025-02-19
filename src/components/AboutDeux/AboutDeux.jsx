@@ -10,14 +10,14 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { TiInputChecked } from "react-icons/ti";
-import RenderHtmlContent from '../RenderHtmlContent/RenderHtmlContent';
 
-function AboutDeux({data,language}) {
+
+function AboutDeux() {
   const { t } = useTranslation('global');
   const [modalShow, setModalShow] = React.useState(false);
 
   const handleSaveChanges = () => {
-    // Ajoutez ici la logique pour sauvegarder les changements
+   
     console.log("Changes saved!");
     setModalShow(false); // Fermer le modal après avoir sauvegardé les changements
 };
@@ -25,15 +25,13 @@ function AboutDeux({data,language}) {
     <div className="section">
       <div className="container">
         <div className="title">
-          <h3>{data[`title_${language}`]} </h3>
+          <h3>{t('titre.about')} </h3>
         </div>
 
         <div className="content">
           <div className="article">
-           
-
-            <div className="text-content">
-              <RenderHtmlContent className="text-line first"  content={data[`description_${language}`]} />
+          <h4>{t('subtitre.subtitle')}</h4>
+          <div className="text-content">
               <div className="text-line">
                 <TiInputChecked  className='fleche-first' />
                 <p className='first'>{t('texte.first')}</p>
@@ -51,6 +49,7 @@ function AboutDeux({data,language}) {
                 <p className='four'>{t('texte.four')}</p>
               </div>
             </div>
+
 
             <div className="primary-secondary-container">
               <Button variant="primary" size="lg" className='primary' onClick={() => setModalShow(true)}>

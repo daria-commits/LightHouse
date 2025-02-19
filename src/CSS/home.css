@@ -5,17 +5,17 @@
 }
 
 .about-deux {
-  margin-bottom: 50px; /* Réduis la marge pour éviter trop d'espace */
+  margin-bottom: 50px;
 }
 
 .methodes {
-  margin-top: 50px; /* Réduis la marge en haut pour rapprocher les sections */
+  margin-top: 50px;
   margin-bottom: 250px;
 }
 
 .prix {
-  margin-top: 50px; /* Réduis la marge en haut pour rapprocher les sections */
-  margin-bottom: 100px; /* Augmenter pour espacer de la section Contact */
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .contact {

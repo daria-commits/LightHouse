@@ -1,7 +1,7 @@
 
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom'; // Import Link de React Router
-import logo from '../../assets/logo-transparent-png.png'; // Assurez-vous de bien mettre le chemin vers le fichier logo
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo-transparent-png.png';
 import './Footer.css';
 import { LiaFacebookMessenger } from "react-icons/lia";
 import { BiLogoWhatsapp } from "react-icons/bi";
@@ -19,7 +19,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container">
         <div className="row">
-          {/* Section du logo */}
+
           <div className="col-sm-12 col-md-6">
             <img src={logo} alt="Logo" width="200" height="40" />
             <p className="text-justify">
@@ -34,7 +34,7 @@ export default function Footer() {
     <li><Link to="/about">{t('footer.links.uiDesign')}</Link></li>
     <li><Link to="/services">{t('footer.links.php')}</Link></li>
 
-    {/* Méthodes de travail avec gras et retrait */}
+
    
     <ul className="work-methods-list">
       <li><Link to="/narrativetherapy">{t('footer.links.methods.narrative')}</Link></li>

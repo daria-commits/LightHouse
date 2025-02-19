@@ -1,41 +1,42 @@
 
-import imageAbout from '../../assets/mashaAbout.jpg';
+import Figure from 'react-bootstrap/Figure';
+import { Container, Row, Col } from 'react-bootstrap';
+import image from '../../assets/masha-diplome.jpg';
 import { useTranslation } from 'react-i18next';
-import './AboutPage.css';
+import './AboutPage.css'
+function AboutPage() {
+   const { t } = useTranslation('global');
 
-export default function AboutPage() {
-    const { t } = useTranslation('global');
+   return (
+      <Container className="mt-4">
+         <Row className="align-items-center">
 
-    return (
-      <>
-        <div className="section-about">
-        
-            <div className="about-page">
-                <div className="gauche-about">
-                    <img src={imageAbout} className='image-about' alt="About" />
-                </div>
-                <div className="droite-about">
-                    <div className="about-title">
-                        <h3>{t('titreabout.aboutpage')}</h3>
-                    </div>
-                    <div className="content-about">
-                        <div className="texte-about">
-                            <p>{t('texteabout.firstabout')}</p>
-                        </div>
-                        <hr />
-                    </div>
-                   
-                </div>
-                
-            </div>
-            
-        </div>
-        <div className="container">
-        <div className="texte-deux">
-                    {t('textedeux.textedeux')}
-                </div>
-                </div>
-                </>
-      
-    );
+            <Col md={6}>
+               <div className="about-title">
+                  <h3>{t('titreabout.aboutpage')}</h3>
+               </div>
+               <div className="content-about">
+                  <div className="texte-about">
+                     <p className='page-text-about'>{t('texteabout.firstabout')}</p>
+                  </div>
+                  <hr />
+               </div>
+            </Col>
+
+            <Col md={6} className="text-center">
+               <Figure>
+                  <Figure.Image 
+                     src={image}
+                     width={300}  
+                     height="auto"
+                     alt="Masha Diplôme"
+                     className="img-fluid"
+                  />
+               </Figure>
+            </Col>
+         </Row>
+      </Container>
+   );
 }
+
+export default AboutPage;

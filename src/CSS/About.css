@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meie+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 
@@ -19,7 +21,7 @@
     margin-bottom: 50px;
     text-transform: uppercase;
     font-size: 35px;
-    color: #68788C !important;
+    color:#513018!important;
     font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-style: normal;
@@ -34,12 +36,14 @@
   
 }
 
-
+.first-about-aboutpage{
+    color: #513018;
+}
 
 
 .diplome-subtitle h4 {
     font-size: 25px;
-    color: #364959;
+    color: #513018;
     margin-bottom: 25px; 
 }
 
@@ -55,14 +59,14 @@
 
 .diplome-subtitle-plus{
     font-size: 25px;
-    color: #364959;
+    color: #513018;
     margin-bottom: 25px; 
 }
 
 .accordion {
-    margin-top: 15px; /* Ajustez la valeur selon vos besoins */
+    margin-top: 15px;
     margin-bottom: 30px;
-    background-color: #68788C;
+    background-color: #513018;
 }
 h2.accordion-header{
     background-color: #364959;
@@ -85,7 +89,7 @@ p{
 
 @media (max-width: 768px) {
     p {
-        font-size: 18px; /* Font size for mobile and tablet */
+        font-size: 18px;
     }
 }
 

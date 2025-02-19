@@ -86,9 +86,9 @@
     "placeholderMessage": "Votre message ici"
    
   },
-  "aboutpagedeux":{
-    "phraseun": "Le phare n’est pas le port. Les bateaux ne naviguent pas vers un phare, mais le phare se profile à l’horizon dans les moments difficiles, la tempête, le brouillard, quand on ne distingue plus le chemin et les obstacles semblent infranchissables…",
-    "phrasedeuxdeux":"C’est ainsi que je vois le rôle du praticien psy. Le gardien du phare est heureux quand le capitaine du navire, grâce à la lumière du phare, passe à côté des rochers dangereux et continue son chemin vers le but, sans s’attarder près du phare."
+  "aboutpage":{
+    "phrase": "Le phare n’est pas le port. Les bateaux ne naviguent pas vers un phare, mais le phare se profile à l’horizon dans les moments difficiles, la tempête, le brouillard, quand on ne distingue plus le chemin et les obstacles semblent infranchissables…",
+    "phrasedeux":"C’est ainsi que je vois le rôle du praticien psy. Le gardien du phare est heureux quand le capitaine du navire, grâce à la lumière du phare, passe à côté des rochers dangereux et continue son chemin vers le but, sans s’attarder près du phare."
 
 
   },
@@ -104,6 +104,9 @@
   "textedeux": {
     "textedeux": "Je travaille avec des gens ayant subi un traumatisme psychologique. J'ai travaillé pendant plusieurs années avec des personnes en crise suicidaire, donc j'ai de l'expérience avec des états émotionnels difficiles.\n\nJe suis une personne responsable, et ma responsabilité inclut le fait de ne pas essayer de travailler seule avec des cas de dépression clinique nécessitant un traitement médical. Je ne vais pas refuser un tel client, mais je ne travaillerai qu'en collaboration avec un médecin. Je considère également qu'il est de ma responsabilité de suivre une thérapie personnelle et une supervision : les difficultés qu'un psychologue, comme tout être humain, rencontre dans sa vie ne doivent pas déteindre sur ses interactions avec le client. C'est pourquoi j'ai actuellement un thérapeute et un superviseur.\n\nJe ne travaille pas avec des couples, des enfants, ni sur des demandes d'adultes concernant l'éducation.\n\nCependant, j'ai de l'expérience avec les parents d'enfants particuliers (enfants ayant des troubles du développement).\n\nMon credo en tant que psychologue peut être exprimé par la phrase du fondateur de la logothérapie, Viktor Frankl : « Qu'est-ce que l'homme ? C'est un être qui décide toujours qui il est. »\n\nJe ne vais jamais essayer de vous changer (ce n'est pas dans mes capacités, ni dans celles de quiconque), je ne vais pas vous enseigner, je ne vais pas vous guider, car vous êtes vous, et vous n'avez pas besoin de me suivre, vous avez votre propre chemin. Je crois que chaque personne a une ressource, une source intérieure, qui lui permet de vivre sa vie en apportant joie et bonheur aux autres.\n\nJe considère que mon rôle en tant que psychologue-consultant est de marcher à vos côtés, pas devant vous, parfois en offrant mon épaule dans les tournants difficiles, en étant un soutien sur votre chemin, jusqu'à ce que vos jambes deviennent assez fortes pour voyager seules.\n\nJe vis en France, à Metz, donc j'utilise principalement des consultations vidéo, parfois par chat et e-mail. Si vous vivez en Europe de l'Ouest, puisque le courrier ici est très rapide, la correspondance à l'ancienne, sur papier, est également possible. Je me suis formée à l’Institut de Psychologie Consultative à l’approche centrée sur la personne (Carl Rogers), puis j’ai suivi plusieurs formations en écriture-thérapie. J’ai aussi appris à travailler avec des personnes en état de crise suicidaire dans le cadre d’un stage approfondi pour les bénévoles du site « Choisis la vie », un site russe de prévention et de lutte contre le suicide, créé et animé par mes soins. Toutes ces formations ont été effectuées à Moscou, Russie.\n\nEn ce moment, je continue d’approfondir mes connaissances et mon savoir-faire et je me spécialise dans l’approche narrative que j’étudie à l’Institut de Formation à la Pratique Psychologique en ligne de la fondation « Le Futur Aujourd’hui » (Moscou).\n\nJe travaille avec des adultes, souffrant de difficultés personnelles, perte de sens, difficultés relationnelles, dépressions, stress post-traumatique, deuil pathologique. Mon expérience de bénévolat sur un site de prévention de suicide m’aide dans le travail avec des états de crise suicidaire ou de rétablissement après une tentative de suicide. Je m’intéresse aussi à l’accompagnement des parents ayant un enfant avec un handicap mental ou une maladie psychique.\n\nGrâce à mes deux premières formations, à part le dialogue, j’utilise des formes de travail très variées, comme des méthodes d’art-thérapie.\n\nMon crédo pourrait se résumer dans les mots de Viktor Frankl, le fondateur de la logothérapie, survivant d’Auschwitz : « On peut tout enlever à un homme, sauf une chose, la dernière des libertés humaines : celle de décider de sa conduite quelles que soient les circonstances dans lesquelles il se trouve. »\n\nJe ne vais pas tenter de vous changer (je ne le pourrais pas, d’ailleurs, personne ne peut changer l’autre, on ne change que soi-même), je ne vais pas vous donner de leçon, je ne vais pas vous guider, parce que vous – c’est vous, et vous ne devez pas me suivre, vous avez votre propre chemin devant vous. Je crois que chaque humain a une source intérieure, à laquelle on peut venir puiser et trouver les forces pour vivre sa vie dans la joie.\n\nJe pense que mon rôle de spécialiste de la relation d’aide est de marcher à côté, et non devant, en proposant mon aide à des tournants compliqués du chemin, vous accompagner sur votre route, tant que vos jambes ne deviendront pas assez fortes pour continuer sans moi.\n\nJe vis à Metz, mais je consulte aussi par Skype, par chat, par courriel, par téléphone et même par correspondance."
   },
+  "methodes":{
+    "title": "Méthodes de travail"
+  },
   "first": {
     "tab": "Thérapie narrative",
     "title": "Thérapie narrative",
@@ -113,19 +116,19 @@
   "second": {
     "tab": "Externalisation du problème",
     "title": "Externalisation du problème",
-    "content": "Description de l'externalisation du problème.",
+    "content": "L'externalisation du problème consiste à séparer l'individu de la problématique, en la présentant comme quelque chose d'extérieur à lui-même. Cela permet de prendre du recul et de mieux comprendre la situation, en la traitant comme un élément distinct, ce qui facilite les solutions.",
     "button": "Plus de détails"
   },
   "third": {
     "tab": "Pratiques écrites",
     "title": "Pratiques écrites",
-    "content": "Description des pratiques écrites.",
+    "content": "Les pratiques écrites sont des exercices où l'individu est encouragé à mettre par écrit ses pensées, ses sentiments ou ses réflexions. Cela permet de clarifier des idées, d'organiser ses émotions et d'explorer des solutions possibles à un problème.",
     "button": "Plus de détailss"
   },
   "four": {
     "tab": "Art-thérapie",
     "title": "Art-thérapie",
-    "content": "Description de l'art-thérapie.",
+    "content": "La thérapie par l'art utilise des processus créatifs, tels que le dessin ou la peinture, pour aider les individus à exprimer leurs émotions et à mieux comprendre leurs pensées. Elle favorise la guérison en permettant aux patients de visualiser et de transformer leurs expériences intérieures.",
     "button": "Plus de détails"
   },
   "methods":{
@@ -174,9 +177,26 @@
       
       
   },
+  "narrativetheraphie": {
+    "textenarrative": "La thérapie narrative est une forme de psychothérapie qui aide les individus à se détacher de leurs problèmes en considérant leurs expériences comme des histoires. Développée par Michael White et David Epston, cette approche met l'accent sur l'importance du langage et du récit dans la construction de notre vision du monde. Elle encourage les personnes à externaliser leurs problèmes, en les voyant comme séparés de leur identité. Cela permet aux clients d'explorer des récits alternatifs et de trouver des significations valorisantes. La thérapie narrative aide les individus à réécrire leur vie, en mettant en avant leurs forces et leurs valeurs. Elle favorise un sentiment d'autonomie et de détermination personnelle. En questionnant les récits culturels dominants, les clients peuvent remettre en question des croyances limitantes. Cette thérapie est collaborative, traitant le client comme l'expert de sa propre vie. Elle est efficace pour une variété de problèmes, notamment les traumatismes, l'anxiété et les difficultés identitaires. La thérapie narrative favorise la résilience en soulignant l'autonomie personnelle et le choix. Elle aide les individus à se percevoir comme capables de changement et de croissance."
+  } ,
   "p": {
           "prix": "Je travaille sur Zoom, Skype ou en personne. Les consultations en personne se font à Metz."
-        }
+        },
+        "writtenpracticies": {
+          "textwritten": 
+            "Les pratiques écrites en thérapie narrative encouragent les individus à exprimer leurs pensées et leurs émotions par l'écriture. Cette méthode aide à externaliser les expériences internes, créant une distance et une clarté. Elle permet aux clients de réfléchir à leurs histoires et d'explorer des perspectives alternatives. L'écriture aide également à organiser des émotions et des événements complexes. Elle offre un espace sécurisé pour traiter des expériences difficiles. À travers le journal intime ou la rédaction de lettres, les individus peuvent dialoguer avec différentes parties d'eux-mêmes. Cela favorise la conscience de soi et la croissance émotionnelle. Les pratiques écrites sont valorisantes car elles permettent aux clients de devenir les auteurs de leurs récits. Ils peuvent redéfinir leur identité en mettant en avant leurs forces et leurs valeurs. Cette approche soutient la guérison en transformant les histoires négatives en récits valorisants. Elle encourage la résilience et l'autonomie personnelle. L'écriture préserve également des moments importants, aidant les individus à honorer leur parcours. Les lettres narratives des thérapeutes offrent validation et encouragement. Ces lettres rappellent les progrès réalisés et les réussites. Les pratiques écrites sont un outil puissant pour construire une image positive de soi et avancer avec un objectif."
+          
+        },
+  "arttheraphie": {
+    "texteart": 
+     "L'art-thérapie est une approche créative de la guérison qui aide les individus à exprimer leurs émotions à travers des supports artistiques. Elle permet d'explorer ses pensées et ses sentiments sans utiliser de mots. La création artistique favorise la prise de conscience de soi et la libération émotionnelle. Peindre, dessiner et sculpter aident à surmonter les traumatismes et le stress. L'art-thérapie offre un espace d'expression sans jugement. Le processus créatif lui-même peut être thérapeutique et apaisant. Elle contribue à renforcer l'estime de soi en permettant aux individus de constater leur évolution personnelle. L'art-thérapie est bénéfique aussi bien pour les enfants que pour les adultes. Elle soutient la santé mentale en réduisant l'anxiété et la dépression. Cette forme de thérapie est fréquemment utilisée dans les hôpitaux, les écoles et les centres de rééducation. L'art peut servir de pont entre l'esprit conscient et inconscient. L'utilisation des couleurs et des formes aide à révéler des émotions enfouies. L'art-thérapie encourage la résilience et le développement des capacités de résolution de problèmes. Les thérapeutes aident les patients à interpréter leurs œuvres pour mieux comprendre leurs émotions. Créer de l'art dans un cadre bienveillant favorise la guérison et la transformation personnelle."
+    },
+    "externalization": {
+      "text": 
+       "L'externalisation est un concept clé de la thérapie narrative qui aide les individus à se dissocier de leurs problèmes. Cette approche permet de voir les difficultés comme des influences externes plutôt que comme des défauts internes. En nommant un problème, on peut mieux le comprendre et le gérer. L'externalisation réduit les sentiments de culpabilité et d'auto-accusation. Elle encourage les individus à reprendre le contrôle de leur récit et à redéfinir leur identité. Cette méthode est particulièrement efficace face à l'anxiété, la dépression et les traumatismes. Les thérapeutes aident leurs patients à personnifier leurs problèmes pour mieux les analyser. En prenant du recul par rapport aux difficultés, il devient possible de découvrir de nouvelles perspectives et solutions. L'externalisation favorise la résilience et l'auto-compassion. Elle permet de remettre en question les récits négatifs qui freinent l'épanouissement personnel. L'écriture, le dessin et le récit peuvent faciliter ce processus. Cette technique aide aussi bien les enfants que les adultes à mieux gérer leurs émotions. L'externalisation est utilisée en thérapie individuelle et de groupe. Elle soutient la guérison émotionnelle à long terme en renforçant le sentiment de contrôle. Grâce à l'externalisation, les individus peuvent réécrire leur histoire de vie avec force et espoir."
+    }
+  
   
 
 }

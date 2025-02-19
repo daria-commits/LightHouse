@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Meie+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
@@ -5,123 +7,44 @@
     box-sizing: border-box;
     
 }
-.section{
-    width: 100%;
-    background-color: #FDFBF9;
-}
-
 
 .section-title{
     width: 100%;
     text-align: center;
     margin-bottom: 50px;
+    
+    font-style: normal;
+    line-height: 3; 
+    display: block; 
     text-transform: uppercase;
     font-size: 30px;
-    color: #68788C;
+    color: #513018;
     font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 3; 
+    display: block; 
    
 }
 
-.my-custom-container{
-    width: 80%;
-    display: block;
-    margin: 50px auto;
-    padding: 50px 0px;
-}
-.card-title{
-    color: #8C6C5A;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    font-size: 17px;
+.primary-method {
+    background-color: #b19067 !important;
+    color: #fefafa !important;
+    border: 1px solid #b19067 !important;
+    width: 250px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px;
+    border-radius: 50px;
     text-transform: uppercase;
-    font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.card-text{
-    color: #364959;
-    line-height: 2;
-}
-
-.card-header-tabs .nav-link.active {
-    
-    color: #68788C;
-}
-
-.card-header-tabs .nav-link {
-    text-transform: uppercase;
-    color: #8C6C5A;
-}
-.card-header {
-    background-color: #CEDEF2;
-}
-.card {
-    border-color: #CEDEF2;
-
-}
-
-.btn.btn-primary{
-    background-color: #8C6C5A;
-    color:#F2E6D8 ;
-    border: #8C6C5A;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 12px 24px;
+    font-weight: bold;
+    border: 2px solid transparent;
+  }
   
-}
-.section-title h3{
-   
-    width: 100%;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-@media (max-width: 768px) {
-    .card-title {
-        font-size: 1rem;
-        padding-top: 15px;
-        padding-bottom: 10px;
-    }
-
-    .card-text {
-        font-size: 0.9rem;
-        line-height: 1.6;
-    }
-
-    .btn.btn-primary {
-        padding: 8px 16px;
-        font-size: 0.9rem;
-    }
-
-    .section-title {
-        font-size: 1.5rem;
-        margin-bottom: 30px;
-    }
-}
-
-/* Adaptation pour les très petits écrans (ex. smartphones) */
-@media (max-width: 576px) {
-    .card {
-        padding: 15px;
-        border-radius: 10px;
-        margin: 10px;
-    }
-
-    .card-title {
-        font-size: 0.9rem;
-    }
-
-    .card-text {
-        font-size: 0.85rem;
-    }
-
-    .section-title {
-        font-size: 1.3rem;
-    }
-
-    .btn.btn-primary {
-        font-size: 0.8rem;
-    }
-}
+  .primary-method:hover {
+    background-color: #fefafa !important;
+    color: #513018 !important;
+    border: 1px solid #2d2b1e !important;
+  }

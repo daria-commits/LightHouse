@@ -87,9 +87,9 @@
     "placeholderMessage": "Your message here"
    
   },
-  "aboutpagedeux":{
-    "phraseun": "A lighthouse is not a port. Ships usually do not sail towards the lighthouse,but the lighthouse comes in the path of the ship in difficult moments, in a storm, in fog, when it is unclear where to sail, the path is indistinguishable, and obstacles seem insurmountable...",
-    "phrasedeuxdeux":"This is how I see the role of the psychological practitioner. The lighthouse keeper is happy when the ship's captain, thanks to the light of the lighthouse, passes by the dangerous rocks and continues on his way toward the goal, without lingering near the lighthouse."
+  "aboutpage":{
+    "phrase": "A lighthouse is not a port. Ships usually do not sail towards the lighthouse,but the lighthouse comes in the path of the ship in difficult moments, in a storm, in fog, when it is unclear where to sail, the path is indistinguishable, and obstacles seem insurmountable...",
+    "phrasedeux":"This is how I see the role of the psychological practitioner. The lighthouse keeper is happy when the ship's captain, thanks to the light of the lighthouse, passes by the dangerous rocks and continues on his way toward the goal, without lingering near the lighthouse."
 
 
   },
@@ -109,28 +109,28 @@
   "first": {
     "tab": "Narrative Therapy",
     "title": "Narrative Therapy",
-    "content": "In my work, I practice the narrative approach. It is a new therapeutic approach that was created in the 1970s-1980s. Its authors are Australian social worker Michael White and New Zealand psychologist David Epston. A person can be the author of their own story.",
+    "content": "In my work, I practice the narrative approach. It is a new therapeutic approach that was created in the 1970s-1980s. Its authors are Australian social worker Michael White and New Zealand psychologist David Epston.",
     "button": "More details"
   },
   "second": {
     "tab": "Externalization of the Problem",
     "title": "Externalization of the Problem",
-    "content": "Description of externalization of the problem.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+    "content": "Externalization of the problem means separating the individual from the issue, presenting it as something external to them. This allows for a better understanding of the situation by distancing oneself from it, making it easier to find solutions.",
     "button": "More details"
   },
   "third": {
     "tab": "Written Practices",
     "title": "Written Practices",
-    "content": "Description of written practices.",
+    "content": "Written practices involve exercises where the individual is encouraged to write down their thoughts, feelings, or reflections. This helps clarify ideas, organize emotions, and explore possible solutions to a problem.",
     "button": "More details"
   },
   "four": {
     "tab": "Art Therapy",
     "title": "Art Therapy",
-    "content": "Description of art therapy.",
+    "content": "Art therapy uses creative processes, such as drawing or painting, to help individuals express their emotions and better understand their thoughts. It promotes healing by allowing patients to visualize and transform their inner experiences.",
     "button": "More details"
   },
-  "methods":{
+  "methodes":{
     "title":"More about the methods"
   },
 
@@ -177,8 +177,23 @@
   },
   "p": {
     "prix": "I work on Zoom, Skype, or in person. In-person consultations are held in Metz."
+  },
+  "narrativetheraphie": {
+    "textenarrative": "Narrative Therapy is a form of psychotherapy that focuses on helping individuals separate themselves from their problems by viewing their experiences as stories. Developed by Michael White and David Epston, this approach emphasizes the importance of language and narrative in shaping our understanding of the world. It encourages people to externalize their issues, seeing them as separate from their identity. This allows clients to explore alternative narratives and find empowering meanings. Narrative Therapy helps individuals re-author their lives, highlighting strengths and values. It fosters a sense of agency and self-determination. By questioning dominant cultural narratives, clients can challenge limiting beliefs. This therapy is collaborative, treating the client as the expert of their own life. It is effective for a variety of issues, including trauma, anxiety, and identity struggles. Narrative Therapy promotes resilience by emphasizing personal agency and choice. It helps individuals see themselves as capable of change and growth."
+  },
+  "writtenpracticies": {
+    "textwritten": {
+      "en": "Written practices in narrative therapy encourage individuals to express their thoughts and feelings through writing. This method helps externalize internal experiences, creating a sense of distance and clarity. It allows clients to reflect on their stories and explore alternative perspectives. Writing also helps to organize complex emotions and events. It serves as a safe space for processing difficult experiences. Through journaling or letter-writing, individuals can engage in dialogues with different parts of themselves. This fosters self-awareness and emotional growth. Written practices are empowering as they allow clients to author their narratives. They can redefine their identity by highlighting strengths and values. This approach supports healing by transforming negative stories into empowering ones. It encourages resilience and personal agency. Writing also preserves important moments, helping individuals honor their journey. Narrative letters from therapists provide validation and encouragement. These letters serve as reminders of progress and achievements. Written practices are a powerful tool in building a positive self-image and moving forward with purpose."
+    }
+  },
+  "arttheraphie": {
+    "texteart": "Art therapy is a creative approach to healing that helps individuals express their emotions through artistic mediums. It allows people to explore their inner thoughts and feelings without using words. Engaging in artistic creation fosters self-awareness and emotional release. Painting, drawing, and sculpting can help individuals process trauma and stress. Art therapy provides a non-judgmental space for self-expression. The creative process itself can be therapeutic and calming. It helps improve self-esteem by allowing individuals to see their personal growth. Art therapy is beneficial for both children and adults. It supports mental health by reducing anxiety and depression. This form of therapy is often used in hospitals, schools, and rehabilitation centers. Art can be a bridge between the conscious and unconscious mind. The use of colors and shapes helps reveal hidden emotions. Art therapy encourages resilience and problem-solving skills. Therapists guide clients to interpret their artwork and gain insight into their emotions. Creating art in a supportive environment fosters healing and personal transformation."
+    
+  },
+  "externalization": {
+    "text": 
+     "Externalization is a key concept in narrative therapy that helps individuals separate themselves from their problems. This approach allows people to see issues as external influences rather than internal flaws. By naming a problem, individuals can better understand and manage it. Externalization reduces feelings of guilt and self-blame. It encourages people to take control of their stories and redefine their identities. This method is especially useful in addressing anxiety, depression, and trauma. Therapists guide clients in personifying their problems, making them easier to analyze. By creating distance from the issue, individuals can find new perspectives and solutions. Externalization promotes resilience and self-compassion. It empowers people to challenge negative narratives that limit their growth. Writing, drawing, and storytelling can aid in the externalization process. This technique helps children and adults alike to cope with emotional struggles. Externalization is used in both individual and group therapy settings. It supports long-term emotional healing by fostering a sense of agency. Through externalization, people can rewrite their life stories in a way that reflects strength and hope."
   }
-  
 }
 
  

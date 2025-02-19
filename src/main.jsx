@@ -11,26 +11,15 @@ import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// i18next.use(backend).use(LanguageDetector)
-// .use(initReactI18next)
-// .init({ 
-//   fallbackLng: 'fr',
-//   loadPath:"",
-//   saveMissin: true,
-//   request: (options,url,playload,callback) => {
-//     console.log(options,url,playload,callback)
-//   }
-// })
+// Initialisation de i18next avec LanguageDetector
 i18next.use(LanguageDetector).init({
   interpolation: { escapeValue: false },
-
-
   resources: {
     en: { global: global_en },
     fr: { global: global_fr },
     ru: { global: global_ru },
   },
-  fallbackLng: 'fr',
+  fallbackLng: 'fr', // Langue par défaut si aucune langue n'est détectée
 });
 
 ReactDom.createRoot(document.getElementById('root')).render(

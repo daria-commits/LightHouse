@@ -59,7 +59,7 @@
     font-variation-settings: "wdth" 100;  
     float: left;
     width: 55%;
-    margin-right: 30px; /* Ajouter un espace entre le texte et l'image */
+    margin-right: 30px;
 }
 .image-section{
     float: right;
@@ -69,8 +69,8 @@
 .image-about{
     width: 90%;
     height: auto;
-    border: 0.5px solid #b19067; /* Ajoute une bordure de 5px avec la couleur spécifiée */
-   border-radius: 10px; /* Vous pouvez ajuster le rayon de la bordure pour obtenir des coins arrondis */
+    border: 0.5px solid #b19067;
+   border-radius: 10px;
    
 }
 
@@ -113,25 +113,23 @@
   }
   .primary-secondary-container {
     margin-top: 60px;
-    display: flex; /* Alignement horizontal */
-    gap: 15px; /* Espacement entre les boutons */
-    justify-content: flex-start; /* Alignement à gauche */
-    align-items: center; /* Centrage vertical */
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
   }
   
   .primary, .secondary {
-    width: 350px; /* Taille fixe maintenue sur mobile */
-    height: 50px; /* Hauteur fixe maintenue */
-    display: inline-flex; /* S'assurer que les boutons sont flexibles */
-    justify-content: center; /* Centrer le texte à l'intérieur */
+    width: 350px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
     align-items: center;
-    height: 50px; /* Ajustez la hauteur du bouton */
-    padding: 16px 36px; /* Ajustez les marges internes */
-    border-radius: 50px; /* Pour rendre les boutons arrondis */
-    font-size: 15px;
-    text-transform: uppercase; /* (Optionnel) Mettre le texte en majuscules */
-    font-weight: bold; /* (Optionnel) Rendre le texte plus épais */
-    border: 2px solid transparent; /* Ajouter une bordure propre */
+    padding: 16px 36px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid transparent;
     font-family: "Open Sans", sans-serif; 
     font-optical-sizing: auto;            
     font-weight: 500;                     
